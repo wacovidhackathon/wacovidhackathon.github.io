@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>TPCraze</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+        .container {
+            max-width: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="/index">Home</a>
+        <a href="/location">Location</a>
+    </div>
+    {% block content %}
+    <h1>Location</h1>
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.latitude.label }}<br>
+            {{ form.latitude(size=20) }}
+        </p>
+        <p>
+            {{ form.longitude.label }}<br>
+            {{ form.longitude(size=20) }}
+        </p>
+        <p onclick="myFunction()">{{ form.submit() }}</p>
+
+    </form>
+
+    {% endblock %}
+    <script>
+        function myFunction() {
+            location.replace("/store")
+        }
+    </script>
+
+</body>
+</html> 

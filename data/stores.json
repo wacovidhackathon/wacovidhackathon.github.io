@@ -1,0 +1,7395 @@
+{
+  "summary": {
+    "query": "store",
+    "queryType": "NON_NEAR",
+    "queryTime": 115,
+    "numResults": 100,
+    "offset": 0,
+    "totalResults": 200,
+    "fuzzyLevel": 1
+  },
+  "results": [
+    {
+      "type": "POI",
+      "id": "US/POI/p0/9764862",
+      "score": 2.1458098888397217,
+      "info": "search:ta:840449000163602-US",
+      "poi": {
+        "name": "Sayfs Enterprises",
+        "phone": "+(1)-(401)-9430002",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "397",
+        "streetName": "Dyer Ave",
+        "municipality": "Cranston",
+        "countrySecondarySubdivision": "Providence",
+        "countryTertiarySubdivision": "Cranston",
+        "countrySubdivision": "RI",
+        "countrySubdivisionName": "Rhode Island",
+        "postalCode": "02920",
+        "extendedPostalCode": "029207087",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "397 Dyer Ave, Cranston, RI 02920",
+        "localName": "Cranston"
+      },
+      "position": {
+        "lat": 41.80325,
+        "lon": -71.45858
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.80415,
+          "lon": -71.45979
+        },
+        "btmRightPoint": {
+          "lat": 41.80235,
+          "lon": -71.45737
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.8032,
+            "lon": -71.45833
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1347582",
+      "score": 2.145709991455078,
+      "info": "search:ta:840259000150817-US",
+      "poi": {
+        "name": "Eastern Salt Co",
+        "phone": "+(1)-(978)-2518553",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "url": "roadsalt.com",
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "15",
+        "streetName": "Tyngsboro Rd",
+        "municipalitySubdivision": "North Chelmsford",
+        "municipality": "North Chelmsford",
+        "countrySecondarySubdivision": "Middlesex",
+        "countryTertiarySubdivision": "Chelmsford",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01863",
+        "extendedPostalCode": "018631370",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "15 Tyngsboro Rd, North Chelmsford, MA 01863",
+        "localName": "North Chelmsford"
+      },
+      "position": {
+        "lat": 42.64,
+        "lon": -71.38379
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.6409,
+          "lon": -71.38501
+        },
+        "btmRightPoint": {
+          "lat": 42.6391,
+          "lon": -71.38257
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.63984,
+            "lon": -71.38397
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1525758",
+      "score": 2.1456899642944336,
+      "info": "search:ta:840259001187375-US",
+      "poi": {
+        "name": "Littleton Convinience",
+        "phone": "+(1)-(978)-3395365",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "12",
+        "streetName": "Jennifer St",
+        "municipality": "Littleton Common",
+        "countrySecondarySubdivision": "Middlesex",
+        "countryTertiarySubdivision": "Littleton",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01460",
+        "extendedPostalCode": "014601734",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "12 Jennifer St, Littleton Common, MA 01460",
+        "localName": "Littleton Common"
+      },
+      "position": {
+        "lat": 42.54485,
+        "lon": -71.47424
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.54575,
+          "lon": -71.47546
+        },
+        "btmRightPoint": {
+          "lat": 42.54395,
+          "lon": -71.47302
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.54472,
+            "lon": -71.47451
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4065278",
+      "score": 2.1456899642944336,
+      "info": "search:ta:840091000240846-US",
+      "poi": {
+        "name": "New Medical Foods",
+        "phone": "+(1)-(203)-4531064",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "69",
+        "streetName": "Brookwood Road",
+        "municipality": "Guilford",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "Guilford",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06437",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "69 Brookwood Road, Guilford, CT 06437",
+        "localName": "Guilford"
+      },
+      "position": {
+        "lat": 41.31159,
+        "lon": -72.72004
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.31249,
+          "lon": -72.72124
+        },
+        "btmRightPoint": {
+          "lat": 41.31069,
+          "lon": -72.71884
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.31166,
+            "lon": -72.71955
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1522686",
+      "score": 2.1456799507141113,
+      "info": "search:ta:840259000965014-US",
+      "poi": {
+        "name": "Din Majid",
+        "phone": "+(1)-(413)-7327583",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "179",
+        "streetName": "Walnut St",
+        "municipality": "Springfield",
+        "countrySecondarySubdivision": "Hampden",
+        "countryTertiarySubdivision": "Springfield",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01105",
+        "extendedPostalCode": "011051528",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "179 Walnut St, Springfield, MA 01105",
+        "localName": "Springfield"
+      },
+      "position": {
+        "lat": 42.10431,
+        "lon": -72.57139
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.10521,
+          "lon": -72.5726
+        },
+        "btmRightPoint": {
+          "lat": 42.10341,
+          "lon": -72.57018
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.1042,
+            "lon": -72.57154
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1504254",
+      "score": 2.145669937133789,
+      "info": "search:ta:840259002384629-US",
+      "poi": {
+        "name": "Salvadorian Mini Mart",
+        "phone": "+(1)-(774)-4705086",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "115",
+        "streetName": "Corporation St",
+        "municipalitySubdivision": "Hyannis",
+        "municipality": "Barnstable Town",
+        "countrySecondarySubdivision": "Barnstable",
+        "countryTertiarySubdivision": "Barnstable Town",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02601",
+        "extendedPostalCode": "026012296",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "115 Corporation St, Barnstable Town, MA 02601",
+        "localName": "Barnstable Town"
+      },
+      "position": {
+        "lat": 41.66643,
+        "lon": -70.30017
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.66733,
+          "lon": -70.30137
+        },
+        "btmRightPoint": {
+          "lat": 41.66553,
+          "lon": -70.29897
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.66676,
+            "lon": -70.30003
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1348606",
+      "score": 2.145669937133789,
+      "info": "search:ta:840259000047282-US",
+      "poi": {
+        "name": "State Line Mart & Smoke Shop",
+        "phone": "+(1)-(508)-3365000",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "155",
+        "streetName": "Fall River Ave",
+        "municipality": "Seekonk",
+        "countrySecondarySubdivision": "Bristol",
+        "countryTertiarySubdivision": "Seekonk",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02771",
+        "extendedPostalCode": "027715531",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "155 Fall River Ave, Seekonk, MA 02771",
+        "localName": "Seekonk"
+      },
+      "position": {
+        "lat": 41.82381,
+        "lon": -71.34203
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.82471,
+          "lon": -71.34324
+        },
+        "btmRightPoint": {
+          "lat": 41.82291,
+          "lon": -71.34082
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.82391,
+            "lon": -71.34172
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1369598",
+      "score": 2.1456499099731445,
+      "info": "search:ta:840259000711847-US",
+      "poi": {
+        "name": "Absolutely Juiced",
+        "phone": "+(1)-(508)-5398700",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "6",
+        "streetName": "Northwest Lndg",
+        "municipality": "New Seabury",
+        "countrySecondarySubdivision": "Barnstable",
+        "countryTertiarySubdivision": "Mashpee",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02649",
+        "extendedPostalCode": "026494661",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "6 Northwest Lndg, New Seabury, MA 02649",
+        "localName": "New Seabury"
+      },
+      "position": {
+        "lat": 41.56325,
+        "lon": -70.48627
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.56415,
+          "lon": -70.48747
+        },
+        "btmRightPoint": {
+          "lat": 41.56235,
+          "lon": -70.48507
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.56336,
+            "lon": -70.4854
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/4158974",
+      "score": 2.1456499099731445,
+      "info": "search:ta:840099001229036-US",
+      "poi": {
+        "name": "Cumberland Farms",
+        "phone": "+(1)-(860)-8710168",
+        "brands": [
+          {
+            "name": "Cumberland Farms"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "5",
+        "streetName": "Wapping Wood Rd",
+        "municipality": "Ellington",
+        "countrySecondarySubdivision": "Tolland",
+        "countryTertiarySubdivision": "Ellington",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06029",
+        "extendedPostalCode": "060294007",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "5 Wapping Wood Rd, Ellington, CT 06029",
+        "localName": "Ellington"
+      },
+      "position": {
+        "lat": 41.8673,
+        "lon": -72.49348
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.8682,
+          "lon": -72.49469
+        },
+        "btmRightPoint": {
+          "lat": 41.8664,
+          "lon": -72.49227
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.86709,
+            "lon": -72.49332
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4139518",
+      "score": 2.1456398963928223,
+      "info": "search:ta:840099001234272-US",
+      "poi": {
+        "name": "Cumberland Farms",
+        "phone": "+(1)-(860)-4892865",
+        "brands": [
+          {
+            "name": "Cumberland Farms"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "https://locations.cumberlandfarms.com/us/ct/torrington/705-migeon-ave",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "705",
+        "streetName": "Migeon Ave",
+        "municipality": "Torrington",
+        "countrySecondarySubdivision": "Litchfield",
+        "countryTertiarySubdivision": "Torrington",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06790",
+        "extendedPostalCode": "067904551",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "705 Migeon Ave, Torrington, CT 06790",
+        "localName": "Torrington"
+      },
+      "position": {
+        "lat": 41.81437,
+        "lon": -73.13736
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.81527,
+          "lon": -73.13857
+        },
+        "btmRightPoint": {
+          "lat": 41.81347,
+          "lon": -73.13615
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.81444,
+            "lon": -73.13734
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4135678",
+      "score": 2.1456298828125,
+      "info": "search:ta:840099000989989-US",
+      "poi": {
+        "name": "Masas",
+        "phone": "+(1)-(203)-4694962",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "192",
+        "streetName": "Commerce St",
+        "municipality": "East Haven",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "East Haven",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06512",
+        "extendedPostalCode": "065124145",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "192 Commerce St, East Haven, CT 06512",
+        "localName": "East Haven"
+      },
+      "position": {
+        "lat": 41.25434,
+        "lon": -72.87843
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.25524,
+          "lon": -72.87963
+        },
+        "btmRightPoint": {
+          "lat": 41.25344,
+          "lon": -72.87723
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.25428,
+            "lon": -72.8782
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4150014",
+      "score": 2.1456298828125,
+      "info": "search:ta:840099000984844-US",
+      "poi": {
+        "name": "Bee Brook Water Co",
+        "phone": "+(1)-(860)-8689981",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "50",
+        "streetName": "Bell Hill Rd",
+        "municipality": "Washington",
+        "countrySecondarySubdivision": "Litchfield",
+        "countryTertiarySubdivision": "Washington",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06793",
+        "extendedPostalCode": "067931501",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "50 Bell Hill Rd, Washington, CT 06793",
+        "localName": "Washington"
+      },
+      "position": {
+        "lat": 41.63095,
+        "lon": -73.29487
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.63185,
+          "lon": -73.29607
+        },
+        "btmRightPoint": {
+          "lat": 41.63005,
+          "lon": -73.29367
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.63084,
+            "lon": -73.29555
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1588478",
+      "score": 2.145620107650757,
+      "info": "search:ta:840259000457243-US",
+      "poi": {
+        "name": "Rice Companies",
+        "phone": "+(1)-(413)-6250258",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "30",
+        "streetName": "Conway St",
+        "municipality": "Shelburne Falls",
+        "countrySecondarySubdivision": "Franklin",
+        "countryTertiarySubdivision": "Buckland",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01370",
+        "extendedPostalCode": "013701197",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "30 Conway St, Shelburne Falls, MA 01370",
+        "localName": "Shelburne Falls"
+      },
+      "position": {
+        "lat": 42.6012,
+        "lon": -72.73931
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.6021,
+          "lon": -72.74053
+        },
+        "btmRightPoint": {
+          "lat": 42.6003,
+          "lon": -72.73809
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.60133,
+            "lon": -72.73917
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4154622",
+      "score": 2.145620107650757,
+      "info": "search:ta:840099000147719-US",
+      "poi": {
+        "name": "J & N Food And Grocery",
+        "phone": "+(1)-(203)-8651468",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "131",
+        "streetName": "Lamberton Street",
+        "municipality": "New Haven",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "New Haven",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06519",
+        "extendedPostalCode": "065192519",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "131 Lamberton Street, New Haven, CT 06519",
+        "localName": "New Haven"
+      },
+      "position": {
+        "lat": 41.29072,
+        "lon": -72.937
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.29162,
+          "lon": -72.9382
+        },
+        "btmRightPoint": {
+          "lat": 41.28982,
+          "lon": -72.9358
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.29067,
+            "lon": -72.93699
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1361790",
+      "score": 2.1456100940704346,
+      "info": "search:ta:840251000428567-US",
+      "poi": {
+        "name": "Notting Hall",
+        "phone": "+(1)-(781)-3403388",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "url": "nottinghall.com",
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "502",
+        "streetName": "Front St",
+        "municipality": "Weymouth",
+        "countrySecondarySubdivision": "Norfolk",
+        "countryTertiarySubdivision": "Weymouth Town",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02188",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "502 Front St, Weymouth, MA 02188",
+        "localName": "Weymouth"
+      },
+      "position": {
+        "lat": 42.202,
+        "lon": -70.95727
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.2029,
+          "lon": -70.95848
+        },
+        "btmRightPoint": {
+          "lat": 42.2011,
+          "lon": -70.95606
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.20195,
+            "lon": -70.95821
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4066174",
+      "score": 2.1456100940704346,
+      "info": "search:ta:840091000284968-US",
+      "poi": {
+        "name": "Center Market",
+        "phone": "+(1)-(860)-5241220",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "256",
+        "streetName": "Albany Avenue",
+        "municipality": "Hartford",
+        "countrySecondarySubdivision": "Hartford",
+        "countryTertiarySubdivision": "Hartford",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06120",
+        "extendedPostalCode": "061202808",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "256 Albany Avenue, Hartford, CT 06120",
+        "localName": "Hartford"
+      },
+      "position": {
+        "lat": 41.77655,
+        "lon": -72.68086
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.77745,
+          "lon": -72.68207
+        },
+        "btmRightPoint": {
+          "lat": 41.77565,
+          "lon": -72.67965
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.77644,
+            "lon": -72.68092
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/9742206",
+      "score": 2.1456100940704346,
+      "info": "search:ta:840449000006340-US",
+      "poi": {
+        "name": "Woonsocket Market",
+        "phone": "+(1)-(401)-7691000",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "118",
+        "streetName": "Main Street",
+        "municipality": "Woonsocket",
+        "countrySecondarySubdivision": "Providence",
+        "countryTertiarySubdivision": "Woonsocket",
+        "countrySubdivision": "RI",
+        "countrySubdivisionName": "Rhode Island",
+        "postalCode": "02895",
+        "extendedPostalCode": "028954337",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "118 Main Street, Woonsocket, RI 02895",
+        "localName": "Woonsocket"
+      },
+      "position": {
+        "lat": 42.00233,
+        "lon": -71.51467
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.00323,
+          "lon": -71.51588
+        },
+        "btmRightPoint": {
+          "lat": 42.00143,
+          "lon": -71.51346
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.00222,
+            "lon": -71.51451
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1178494",
+      "score": 2.1456100940704346,
+      "info": "search:ta:840259000400062-US",
+      "poi": {
+        "name": "New Life",
+        "phone": "+(1)-(617)-4424237",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "415",
+        "streetName": "Blue Hill Ave",
+        "municipalitySubdivision": "Dorchester",
+        "municipality": "Boston",
+        "countrySecondarySubdivision": "Suffolk",
+        "countryTertiarySubdivision": "Boston",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02121",
+        "extendedPostalCode": "021214387",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "415 Blue Hill Ave, Boston, MA 02121",
+        "localName": "Boston"
+      },
+      "position": {
+        "lat": 42.3108,
+        "lon": -71.08187
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.3117,
+          "lon": -71.08309
+        },
+        "btmRightPoint": {
+          "lat": 42.3099,
+          "lon": -71.08065
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.31072,
+            "lon": -71.08165
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1192830",
+      "score": 2.1456100940704346,
+      "info": "search:ta:840259002415261-US",
+      "poi": {
+        "name": "Azteca Market",
+        "phone": "+(1)-(781)-2095770",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "75",
+        "streetName": "Pine St",
+        "municipality": "Waltham",
+        "countrySecondarySubdivision": "Middlesex",
+        "countryTertiarySubdivision": "Waltham",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02453",
+        "extendedPostalCode": "024535361",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "75 Pine St, Waltham, MA 02453",
+        "localName": "Waltham"
+      },
+      "position": {
+        "lat": 42.37078,
+        "lon": -71.23356
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.37168,
+          "lon": -71.23478
+        },
+        "btmRightPoint": {
+          "lat": 42.36988,
+          "lon": -71.23234
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.37096,
+            "lon": -71.23348
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1349502",
+      "score": 2.1456100940704346,
+      "info": "search:ta:840251000459876-US",
+      "poi": {
+        "name": "Jimmys Convenience Store",
+        "phone": "+(1)-(978)-9576500",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "286",
+        "streetName": "Pleasant St",
+        "municipality": "Dracut",
+        "countrySecondarySubdivision": "Middlesex",
+        "countryTertiarySubdivision": "Dracut",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01826",
+        "extendedPostalCode": "018264919",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "286 Pleasant St, Dracut, MA 01826",
+        "localName": "Dracut"
+      },
+      "position": {
+        "lat": 42.66489,
+        "lon": -71.31386
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.66579,
+          "lon": -71.31508
+        },
+        "btmRightPoint": {
+          "lat": 42.66399,
+          "lon": -71.31264
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.66489,
+            "lon": -71.31386
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1362302",
+      "score": 2.1456000804901123,
+      "info": "search:ta:840259002277166-US",
+      "poi": {
+        "name": "7-Eleven",
+        "phone": "+(1)-(781)-8711422",
+        "brands": [
+          {
+            "name": "7-Eleven"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "https://www.7-eleven.com/locations/ma/abington/2-brockton-ave-32437",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "2",
+        "streetName": "Brockton Ave",
+        "municipality": "Abington",
+        "countrySecondarySubdivision": "Plymouth",
+        "countryTertiarySubdivision": "Abington",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02351",
+        "extendedPostalCode": "023511925",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "2 Brockton Ave, Abington, MA 02351",
+        "localName": "Abington"
+      },
+      "position": {
+        "lat": 42.10551,
+        "lon": -70.94707
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.10641,
+          "lon": -70.94828
+        },
+        "btmRightPoint": {
+          "lat": 42.10461,
+          "lon": -70.94586
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.10583,
+            "lon": -70.94682
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1500798",
+      "score": 2.1456000804901123,
+      "info": "search:ta:840259001372757-US",
+      "poi": {
+        "name": "Village Market",
+        "phone": "+(1)-(781)-2359700",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "url": "ucook.com",
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "9",
+        "streetName": "Washington St",
+        "municipalitySubdivision": "Wellesley Hills",
+        "municipality": "Wellesley",
+        "countrySecondarySubdivision": "Norfolk",
+        "countryTertiarySubdivision": "Wellesley",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02481",
+        "extendedPostalCode": "024811703",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "9 Washington St, Wellesley, MA 02481",
+        "localName": "Wellesley"
+      },
+      "position": {
+        "lat": 42.32537,
+        "lon": -71.25968
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.32627,
+          "lon": -71.2609
+        },
+        "btmRightPoint": {
+          "lat": 42.32447,
+          "lon": -71.25846
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.32518,
+            "lon": -71.25966
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1504894",
+      "score": 2.1456000804901123,
+      "info": "search:ta:840259001314713-US",
+      "poi": {
+        "name": "Blue Fire Coffee Roasters",
+        "phone": "+(1)-(508)-4783473",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "4",
+        "streetName": "Rosenfeld Dr",
+        "municipality": "Hopedale",
+        "countrySecondarySubdivision": "Worcester",
+        "countryTertiarySubdivision": "Hopedale",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01747",
+        "extendedPostalCode": "017472117",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "4 Rosenfeld Dr, Hopedale, MA 01747",
+        "localName": "Hopedale"
+      },
+      "position": {
+        "lat": 42.10511,
+        "lon": -71.51573
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.10601,
+          "lon": -71.51694
+        },
+        "btmRightPoint": {
+          "lat": 42.10421,
+          "lon": -71.51452
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.10552,
+            "lon": -71.51585
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1507710",
+      "score": 2.1456000804901123,
+      "info": "search:ta:840251000470875-US",
+      "poi": {
+        "name": "Happy Family Food Market",
+        "phone": "+(1)-(617)-5421488",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "url": "www.a2zbizonline.com/jiale.html",
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "11",
+        "streetName": "Hudson St",
+        "municipalitySubdivision": "Chinatown",
+        "municipality": "Boston",
+        "countrySecondarySubdivision": "Suffolk",
+        "countryTertiarySubdivision": "Boston",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02111",
+        "extendedPostalCode": "021111973",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "11 Hudson St, Boston, MA 02111",
+        "localName": "Boston"
+      },
+      "position": {
+        "lat": 42.35086,
+        "lon": -71.06023
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.35176,
+          "lon": -71.06145
+        },
+        "btmRightPoint": {
+          "lat": 42.34996,
+          "lon": -71.05901
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.35082,
+            "lon": -71.06005
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1513854",
+      "score": 2.1456000804901123,
+      "info": "search:ta:840259002311783-US",
+      "poi": {
+        "name": "7-Eleven",
+        "phone": "+(1)-(413)-5322021",
+        "brands": [
+          {
+            "name": "7-Eleven"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "https://www.7-eleven.com/locations/ma/south-hadley/426-newton-st-15405",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "426",
+        "streetName": "Newton St",
+        "municipality": "South Hadley",
+        "countrySecondarySubdivision": "Hampshire",
+        "countryTertiarySubdivision": "South Hadley",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01075",
+        "extendedPostalCode": "010752330",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "426 Newton St, South Hadley, MA 01075",
+        "localName": "South Hadley"
+      },
+      "position": {
+        "lat": 42.23422,
+        "lon": -72.58445
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.23512,
+          "lon": -72.58566
+        },
+        "btmRightPoint": {
+          "lat": 42.23332,
+          "lon": -72.58324
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.23413,
+            "lon": -72.58414
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4066942",
+      "score": 2.1456000804901123,
+      "info": "search:ta:840099000253492-US",
+      "poi": {
+        "name": "Halal Food Market",
+        "phone": "+(1)-(860)-5600722",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "398",
+        "streetName": "Windsor Avenue",
+        "municipality": "Windsor",
+        "countrySecondarySubdivision": "Hartford",
+        "countryTertiarySubdivision": "Windsor",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06095",
+        "extendedPostalCode": "060954467",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "398 Windsor Avenue, Windsor, CT 06095",
+        "localName": "Windsor"
+      },
+      "position": {
+        "lat": 41.81408,
+        "lon": -72.65683
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.81498,
+          "lon": -72.65804
+        },
+        "btmRightPoint": {
+          "lat": 41.81318,
+          "lon": -72.65562
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.81458,
+            "lon": -72.65692
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4138366",
+      "score": 2.1456000804901123,
+      "info": "search:ta:840099000334396-US",
+      "poi": {
+        "name": "1872 Middletown Ave",
+        "phone": "+(1)-(203)-2080852",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "1872",
+        "streetName": "Middletown Ave",
+        "municipality": "Northford",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "North Branford",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06472",
+        "extendedPostalCode": "064721172",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "1872 Middletown Ave, Northford, CT 06472",
+        "localName": "Northford"
+      },
+      "position": {
+        "lat": 41.41224,
+        "lon": -72.76031
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.41314,
+          "lon": -72.76151
+        },
+        "btmRightPoint": {
+          "lat": 41.41134,
+          "lon": -72.75911
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.41178,
+            "lon": -72.76011
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1170046",
+      "score": 2.1456000804901123,
+      "info": "search:ta:840259001191572-US",
+      "poi": {
+        "name": "Absolutely Juiced",
+        "phone": "+(1)-(508)-5398700",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "6",
+        "streetName": "North Way",
+        "municipality": "Mashpee",
+        "countrySecondarySubdivision": "Barnstable",
+        "countryTertiarySubdivision": "Mashpee",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02649",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "6 North Way, Mashpee, MA 02649",
+        "localName": "Mashpee"
+      },
+      "position": {
+        "lat": 41.6096,
+        "lon": -70.48467
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.6105,
+          "lon": -70.48587
+        },
+        "btmRightPoint": {
+          "lat": 41.6087,
+          "lon": -70.48347
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.6096,
+            "lon": -70.48431
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1195390",
+      "score": 2.1456000804901123,
+      "info": "search:ta:840259001291097-US",
+      "poi": {
+        "name": "Daddy's Dairy",
+        "phone": "+(1)-(781)-8480048",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "120",
+        "streetName": "Union St",
+        "municipality": "Braintree",
+        "countrySecondarySubdivision": "Norfolk",
+        "countryTertiarySubdivision": "Braintree Town",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02184",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "120 Union St, Braintree, MA 02184",
+        "localName": "Braintree"
+      },
+      "position": {
+        "lat": 42.20943,
+        "lon": -70.99973
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.21033,
+          "lon": -71.00094
+        },
+        "btmRightPoint": {
+          "lat": 42.20853,
+          "lon": -70.99852
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.20929,
+            "lon": -70.99964
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/9901694",
+      "score": 2.1456000804901123,
+      "info": "search:ta:840509000125941-US",
+      "poi": {
+        "name": "Saxton's River Distillery",
+        "phone": "+(1)-(802)-2461128",
+        "categorySet": [
+          {
+            "id": 9361066
+          }
+        ],
+        "url": "www.saplingliqueur.com",
+        "categories": [
+          "shop",
+          "wholesale clubs"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "wholesale clubs"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "485",
+        "streetName": "W River Rd",
+        "municipality": "Brattleboro",
+        "countrySecondarySubdivision": "Windham",
+        "countryTertiarySubdivision": "Brattleboro",
+        "countrySubdivision": "VT",
+        "countrySubdivisionName": "Vermont",
+        "postalCode": "05301",
+        "extendedPostalCode": "053019006",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "485 W River Rd, Brattleboro, VT 05301",
+        "localName": "Brattleboro"
+      },
+      "position": {
+        "lat": 42.87954,
+        "lon": -72.57643
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.88044,
+          "lon": -72.57766
+        },
+        "btmRightPoint": {
+          "lat": 42.87864,
+          "lon": -72.5752
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.87922,
+            "lon": -72.57673
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1356414",
+      "score": 2.14559006690979,
+      "info": "search:ta:840251000499631-US",
+      "poi": {
+        "name": "D & D Convenience Store",
+        "phone": "+(1)-(617)-2889501",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "1002",
+        "streetName": "Dorchester Ave",
+        "municipalitySubdivision": "Dorchester",
+        "municipality": "Boston",
+        "countrySecondarySubdivision": "Suffolk",
+        "countryTertiarySubdivision": "Boston",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02125",
+        "extendedPostalCode": "021251314",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "1002 Dorchester Ave, Boston, MA 02125",
+        "localName": "Boston"
+      },
+      "position": {
+        "lat": 42.31648,
+        "lon": -71.05644
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.31738,
+          "lon": -71.05766
+        },
+        "btmRightPoint": {
+          "lat": 42.31558,
+          "lon": -71.05522
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.31648,
+            "lon": -71.05669
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1509502",
+      "score": 2.14559006690979,
+      "info": "search:ta:840259002407310-US",
+      "poi": {
+        "name": "Alltown",
+        "phone": "+(1)-(413)-4365648",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "https://www.alltown.com/locator",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "1300",
+        "streetName": "Main St",
+        "municipality": "Warren",
+        "countrySecondarySubdivision": "Worcester",
+        "countryTertiarySubdivision": "Warren",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01083",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "1300 Main St, Warren, MA 01083",
+        "localName": "Warren"
+      },
+      "position": {
+        "lat": 42.21594,
+        "lon": -72.20572
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.21684,
+          "lon": -72.20693
+        },
+        "btmRightPoint": {
+          "lat": 42.21504,
+          "lon": -72.20451
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.21551,
+            "lon": -72.20616
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4137598",
+      "score": 2.14559006690979,
+      "info": "search:ta:840091000364291-US",
+      "poi": {
+        "name": "Branford Green Grocer",
+        "phone": "+(1)-(203)-2083270",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "1036",
+        "streetName": "Main St",
+        "municipality": "Branford Center",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "Branford",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06405",
+        "extendedPostalCode": "064053732",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "1036 Main St, Branford Center, CT 06405",
+        "localName": "Branford Center"
+      },
+      "position": {
+        "lat": 41.28225,
+        "lon": -72.81103
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.28315,
+          "lon": -72.81223
+        },
+        "btmRightPoint": {
+          "lat": 41.28135,
+          "lon": -72.80983
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.28215,
+            "lon": -72.81088
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4154494",
+      "score": 2.14559006690979,
+      "info": "search:ta:840091000350662-US",
+      "poi": {
+        "name": "Sofrito Ponce",
+        "phone": "+(1)-(203)-7776937",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "url": "www.sofritoponce.com",
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "145",
+        "streetName": "Adeline St",
+        "municipality": "New Haven",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "New Haven",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06519",
+        "extendedPostalCode": "065192037",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "145 Adeline St, New Haven, CT 06519",
+        "localName": "New Haven"
+      },
+      "position": {
+        "lat": 41.29348,
+        "lon": -72.94354
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.29438,
+          "lon": -72.94474
+        },
+        "btmRightPoint": {
+          "lat": 41.29258,
+          "lon": -72.94234
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.29344,
+            "lon": -72.94352
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4158398",
+      "score": 2.14559006690979,
+      "info": "search:ta:840099000082628-US",
+      "poi": {
+        "name": "Chat Chew & Chocolate",
+        "phone": "+(1)-(860)-5387375",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "482",
+        "streetName": "East Street",
+        "municipality": "New Britain",
+        "countrySecondarySubdivision": "Hartford",
+        "countryTertiarySubdivision": "New Britain",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06051",
+        "extendedPostalCode": "060517202",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "482 East Street, New Britain, CT 06051",
+        "localName": "New Britain"
+      },
+      "position": {
+        "lat": 41.66623,
+        "lon": -72.76589
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.66713,
+          "lon": -72.76709
+        },
+        "btmRightPoint": {
+          "lat": 41.66533,
+          "lon": -72.76469
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.66625,
+            "lon": -72.76547
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/9599934",
+      "score": 2.14559006690979,
+      "info": "search:ta:840339000139461-US",
+      "poi": {
+        "name": "J-Don's Variety",
+        "phone": "+(1)-(603)-8895742",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "www.citgo.com",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetName": "Rt 111 W",
+        "municipality": "Nashua",
+        "countrySecondarySubdivision": "Hillsborough",
+        "countryTertiarySubdivision": "Nashua",
+        "countrySubdivision": "NH",
+        "countrySubdivisionName": "New Hampshire",
+        "postalCode": "03062",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "Rt 111 W, Nashua, NH 03062",
+        "localName": "Nashua"
+      },
+      "position": {
+        "lat": 42.71913,
+        "lon": -71.53518
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.72003,
+          "lon": -71.5364
+        },
+        "btmRightPoint": {
+          "lat": 42.71823,
+          "lon": -71.53396
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.71911,
+            "lon": -71.53516
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/9745022",
+      "score": 2.14559006690979,
+      "info": "search:ta:840449000310524-US",
+      "poi": {
+        "name": "Cumberland Farms",
+        "phone": "+(1)-(401)-7821896",
+        "brands": [
+          {
+            "name": "Cumberland Farms"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "www.cumberlandfarms.com",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "909",
+        "streetName": "Boston Neck Rd",
+        "municipality": "Narragansett",
+        "countrySecondarySubdivision": "Washington",
+        "countryTertiarySubdivision": "Narragansett",
+        "countrySubdivision": "RI",
+        "countrySubdivisionName": "Rhode Island",
+        "postalCode": "02882",
+        "extendedPostalCode": "028821758",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "909 Boston Neck Rd, Narragansett, RI 02882",
+        "localName": "Narragansett"
+      },
+      "position": {
+        "lat": 41.47584,
+        "lon": -71.43454
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.47674,
+          "lon": -71.43574
+        },
+        "btmRightPoint": {
+          "lat": 41.47494,
+          "lon": -71.43334
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.47565,
+            "lon": -71.43514
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1169342",
+      "score": 2.14559006690979,
+      "info": "search:ta:840259000127584-US",
+      "poi": {
+        "name": "South River Miso Co",
+        "phone": "+(1)-(413)-3694057",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "url": "www.southrivermiso.com",
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "888",
+        "streetName": "Shelburne Falls Rd",
+        "municipality": "Conway",
+        "countrySecondarySubdivision": "Franklin",
+        "countryTertiarySubdivision": "Conway",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01341",
+        "extendedPostalCode": "013419662",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "888 Shelburne Falls Rd, Conway, MA 01341",
+        "localName": "Conway"
+      },
+      "position": {
+        "lat": 42.53191,
+        "lon": -72.70062
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.53281,
+          "lon": -72.70184
+        },
+        "btmRightPoint": {
+          "lat": 42.53101,
+          "lon": -72.6994
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.53186,
+            "lon": -72.70098
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1178750",
+      "score": 2.14559006690979,
+      "info": "search:ta:840259002262285-US",
+      "poi": {
+        "name": "APlus",
+        "phone": "+(1)-(978)-5346190",
+        "brands": [
+          {
+            "name": "APlus"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "https://www.sunoco.com",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "701",
+        "streetName": "Central St",
+        "municipality": "Leominster",
+        "countrySecondarySubdivision": "Worcester",
+        "countryTertiarySubdivision": "Leominster",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01453",
+        "extendedPostalCode": "014536100",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "701 Central St, Leominster, MA 01453",
+        "localName": "Leominster"
+      },
+      "position": {
+        "lat": 42.50347,
+        "lon": -71.74766
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.50437,
+          "lon": -71.74888
+        },
+        "btmRightPoint": {
+          "lat": 42.50257,
+          "lon": -71.74644
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.50364,
+            "lon": -71.7474
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1187966",
+      "score": 2.14559006690979,
+      "info": "search:ta:840259000752905-US",
+      "poi": {
+        "name": "Perry Vintage Toys and Convenience",
+        "phone": "+(1)-(774)-6289947",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "274",
+        "streetName": "Cedar St",
+        "municipality": "New Bedford",
+        "countrySecondarySubdivision": "Bristol",
+        "countryTertiarySubdivision": "New Bedford",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02740",
+        "extendedPostalCode": "027404589",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "274 Cedar St, New Bedford, MA 02740",
+        "localName": "New Bedford"
+      },
+      "position": {
+        "lat": 41.64384,
+        "lon": -70.93613
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.64474,
+          "lon": -70.93733
+        },
+        "btmRightPoint": {
+          "lat": 41.64294,
+          "lon": -70.93493
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.6438,
+            "lon": -70.93631
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1343422",
+      "score": 2.14559006690979,
+      "info": "search:ta:840251000561805-US",
+      "poi": {
+        "name": "Himalayan Salt Company",
+        "phone": "+(1)-(508)-8450033",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "167",
+        "streetName": "Memorial Dr",
+        "municipality": "Shrewsbury",
+        "countrySecondarySubdivision": "Worcester",
+        "countryTertiarySubdivision": "Shrewsbury",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01545",
+        "extendedPostalCode": "0154562",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "167 Memorial Dr, Shrewsbury, MA 01545",
+        "localName": "Shrewsbury"
+      },
+      "position": {
+        "lat": 42.25691,
+        "lon": -71.70981
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.25781,
+          "lon": -71.71103
+        },
+        "btmRightPoint": {
+          "lat": 42.25601,
+          "lon": -71.70859
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.25695,
+            "lon": -71.71162
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/4153470",
+      "score": 2.14559006690979,
+      "info": "search:ta:840099000510213-US",
+      "poi": {
+        "name": "Sandwichon Grocery 2",
+        "phone": "+(1)-(860)-5600446",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "874",
+        "streetName": "Park St",
+        "municipalitySubdivision": "Frog Hollow",
+        "municipality": "Hartford",
+        "countrySecondarySubdivision": "Hartford",
+        "countryTertiarySubdivision": "Hartford",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06106",
+        "extendedPostalCode": "061062330",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "874 Park St, Hartford, CT 06106",
+        "localName": "Hartford"
+      },
+      "position": {
+        "lat": 41.75828,
+        "lon": -72.69196
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.75918,
+          "lon": -72.69317
+        },
+        "btmRightPoint": {
+          "lat": 41.75738,
+          "lon": -72.69075
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.75814,
+            "lon": -72.69196
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/4165566",
+      "score": 2.14559006690979,
+      "info": "search:ta:840099001208294-US",
+      "poi": {
+        "name": "Enfield Food Mart",
+        "phone": "+(1)-(860)-6986409",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "935",
+        "streetName": "Enfield St",
+        "municipality": "Thompsonville",
+        "countrySecondarySubdivision": "Hartford",
+        "countryTertiarySubdivision": "Enfield",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06082",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "935 Enfield St, Thompsonville, CT 06082",
+        "localName": "Thompsonville"
+      },
+      "position": {
+        "lat": 41.99634,
+        "lon": -72.59409
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.99724,
+          "lon": -72.5953
+        },
+        "btmRightPoint": {
+          "lat": 41.99544,
+          "lon": -72.59288
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.99631,
+            "lon": -72.59444
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1358270",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840259000251986-US",
+      "poi": {
+        "name": "Anh Enterprises",
+        "phone": "+(1)-(781)-2314995",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "465",
+        "streetName": "Essex St",
+        "municipality": "Saugus",
+        "countrySecondarySubdivision": "Essex",
+        "countryTertiarySubdivision": "Saugus",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01906",
+        "extendedPostalCode": "019062274",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "465 Essex St, Saugus, MA 01906",
+        "localName": "Saugus"
+      },
+      "position": {
+        "lat": 42.46115,
+        "lon": -71.03648
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.46205,
+          "lon": -71.0377
+        },
+        "btmRightPoint": {
+          "lat": 42.46025,
+          "lon": -71.03526
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.46088,
+            "lon": -71.03666
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1448638",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840251000453719-US",
+      "poi": {
+        "name": "La Favorita Market",
+        "phone": "+(1)-(617)-2540177",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "66",
+        "streetName": "Harvard Ave",
+        "municipalitySubdivision": "Allston",
+        "municipality": "Boston",
+        "countrySecondarySubdivision": "Suffolk",
+        "countryTertiarySubdivision": "Boston",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02134",
+        "extendedPostalCode": "021341771",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "66 Harvard Ave, Boston, MA 02134",
+        "localName": "Boston"
+      },
+      "position": {
+        "lat": 42.35399,
+        "lon": -71.13204
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.35489,
+          "lon": -71.13326
+        },
+        "btmRightPoint": {
+          "lat": 42.35309,
+          "lon": -71.13082
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.35395,
+            "lon": -71.13232
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1451454",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840259002368820-US",
+      "poi": {
+        "name": "Reading Quick Stop",
+        "phone": "+(1)-(781)-9442440",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "519",
+        "streetName": "Main Street",
+        "municipality": "Reading",
+        "countrySecondarySubdivision": "Middlesex",
+        "countryTertiarySubdivision": "Reading",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01867",
+        "extendedPostalCode": "018673161",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "519 Main Street, Reading, MA 01867",
+        "localName": "Reading"
+      },
+      "position": {
+        "lat": 42.52227,
+        "lon": -71.10276
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.52317,
+          "lon": -71.10398
+        },
+        "btmRightPoint": {
+          "lat": 42.52137,
+          "lon": -71.10154
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.52228,
+            "lon": -71.10313
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1501886",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840259000337316-US",
+      "poi": {
+        "name": "One Stop Market",
+        "phone": "+(1)-(781)-3498499",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "914",
+        "streetName": "Washington St",
+        "municipality": "Norwood",
+        "countrySecondarySubdivision": "Norfolk",
+        "countryTertiarySubdivision": "Norwood",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02062",
+        "extendedPostalCode": "020626601",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "914 Washington St, Norwood, MA 02062",
+        "localName": "Norwood"
+      },
+      "position": {
+        "lat": 42.18569,
+        "lon": -71.20291
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.18659,
+          "lon": -71.20412
+        },
+        "btmRightPoint": {
+          "lat": 42.18479,
+          "lon": -71.2017
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.1857,
+            "lon": -71.20313
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1526974",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840259002326397-US",
+      "poi": {
+        "name": "The Village General Store",
+        "phone": "+(1)-(508)-2248180",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "700",
+        "streetName": "State Rd",
+        "municipality": "Plymouth",
+        "countrySecondarySubdivision": "Plymouth",
+        "countryTertiarySubdivision": "Plymouth",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02360",
+        "extendedPostalCode": "023605108",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "700 State Rd, Plymouth, MA 02360",
+        "localName": "Plymouth"
+      },
+      "position": {
+        "lat": 41.91735,
+        "lon": -70.55737
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.91825,
+          "lon": -70.55858
+        },
+        "btmRightPoint": {
+          "lat": 41.91645,
+          "lon": -70.55616
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.91712,
+            "lon": -70.55752
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4065982",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840091000352767-US",
+      "poi": {
+        "name": "Productos Hispanos Texas",
+        "phone": "+(1)-(860)-5272848",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "624",
+        "streetName": "Park Street",
+        "municipalitySubdivision": "Frog Hollow",
+        "municipality": "Hartford",
+        "countrySecondarySubdivision": "Hartford",
+        "countryTertiarySubdivision": "Hartford",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06106",
+        "extendedPostalCode": "061064615",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "624 Park Street, Hartford, CT 06106",
+        "localName": "Hartford"
+      },
+      "position": {
+        "lat": 41.75816,
+        "lon": -72.68729
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.75906,
+          "lon": -72.6885
+        },
+        "btmRightPoint": {
+          "lat": 41.75726,
+          "lon": -72.68608
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.75806,
+            "lon": -72.68731
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4066494",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840099000741139-US",
+      "poi": {
+        "name": "Veras Market",
+        "phone": "+(1)-(860)-9042776",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "241",
+        "streetName": "Wethersfield Avenue",
+        "municipalitySubdivision": "Barry Square",
+        "municipality": "Hartford",
+        "countrySecondarySubdivision": "Hartford",
+        "countryTertiarySubdivision": "Hartford",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06114",
+        "extendedPostalCode": "061141194",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "241 Wethersfield Avenue, Hartford, CT 06114",
+        "localName": "Hartford"
+      },
+      "position": {
+        "lat": 41.74921,
+        "lon": -72.67395
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.75011,
+          "lon": -72.67516
+        },
+        "btmRightPoint": {
+          "lat": 41.74831,
+          "lon": -72.67274
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.74923,
+            "lon": -72.67367
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4138174",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840099000524177-US",
+      "poi": {
+        "name": "Uncle Louie G",
+        "phone": "+(1)-(203)-2348748",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "344",
+        "streetName": "Washington Ave",
+        "municipality": "North Haven",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "North Haven",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06473",
+        "extendedPostalCode": "064731308",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "344 Washington Ave, North Haven, CT 06473",
+        "localName": "North Haven"
+      },
+      "position": {
+        "lat": 41.40654,
+        "lon": -72.84527
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.40744,
+          "lon": -72.84647
+        },
+        "btmRightPoint": {
+          "lat": 41.40564,
+          "lon": -72.84407
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.40663,
+            "lon": -72.8455
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4146878",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840099000238287-US",
+      "poi": {
+        "name": "Peachwave",
+        "phone": "+(1)-(475)-2352360",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "url": "www.peachwaveyogurt.com",
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "3670",
+        "streetName": "E Main St",
+        "municipalitySubdivision": "Pierpoint Road",
+        "municipality": "Waterbury",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "Waterbury",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06705",
+        "extendedPostalCode": "067053870",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "3670 E Main St, Waterbury, CT 06705",
+        "localName": "Waterbury"
+      },
+      "position": {
+        "lat": 41.54247,
+        "lon": -72.96666
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.54337,
+          "lon": -72.96786
+        },
+        "btmRightPoint": {
+          "lat": 41.54157,
+          "lon": -72.96546
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.54321,
+            "lon": -72.96717
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4154814",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840091000231859-US",
+      "poi": {
+        "name": "R & L Grocery Store",
+        "phone": "+(1)-(203)-5625096",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "151",
+        "streetName": "Portsea Street",
+        "municipality": "New Haven",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "New Haven",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06519",
+        "extendedPostalCode": "065192207",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "151 Portsea Street, New Haven, CT 06519",
+        "localName": "New Haven"
+      },
+      "position": {
+        "lat": 41.29756,
+        "lon": -72.93039
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.29846,
+          "lon": -72.93159
+        },
+        "btmRightPoint": {
+          "lat": 41.29666,
+          "lon": -72.92919
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.29751,
+            "lon": -72.93038
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/9742782",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840449000263371-US",
+      "poi": {
+        "name": "Jw Mini Market",
+        "phone": "+(1)-(401)-2314949",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "146",
+        "streetName": "Waterman Ave",
+        "municipality": "North Providence",
+        "countrySecondarySubdivision": "Providence",
+        "countryTertiarySubdivision": "North Providence",
+        "countrySubdivision": "RI",
+        "countrySubdivisionName": "Rhode Island",
+        "postalCode": "02911",
+        "extendedPostalCode": "029111090",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "146 Waterman Ave, North Providence, RI 02911",
+        "localName": "North Providence"
+      },
+      "position": {
+        "lat": 41.86458,
+        "lon": -71.48909
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.86548,
+          "lon": -71.4903
+        },
+        "btmRightPoint": {
+          "lat": 41.86368,
+          "lon": -71.48788
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.86465,
+            "lon": -71.48892
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1166782",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840259001112693-US",
+      "poi": {
+        "name": "Caribbean",
+        "phone": "+(1)-(617)-5067590",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "558",
+        "streetName": "Washington St",
+        "municipalitySubdivision": "Dorchester Center",
+        "municipality": "Boston",
+        "countrySecondarySubdivision": "Suffolk",
+        "countryTertiarySubdivision": "Boston",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02124",
+        "extendedPostalCode": "021246945",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "558 Washington St, Boston, MA 02124",
+        "localName": "Boston"
+      },
+      "position": {
+        "lat": 42.29215,
+        "lon": -71.07152
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.29305,
+          "lon": -71.07274
+        },
+        "btmRightPoint": {
+          "lat": 42.29125,
+          "lon": -71.0703
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.29214,
+            "lon": -71.07175
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1170110",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840259002126190-US",
+      "poi": {
+        "name": "San Antonio Snacks By Tom's Snacks",
+        "phone": "+(1)-(210)-2271702",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "939",
+        "streetName": "Boylston St",
+        "municipalitySubdivision": "Back Bay",
+        "municipality": "Boston",
+        "countrySecondarySubdivision": "Suffolk",
+        "countryTertiarySubdivision": "Boston",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02115",
+        "extendedPostalCode": "021153192",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "939 Boylston St, Boston, MA 02115",
+        "localName": "Boston"
+      },
+      "position": {
+        "lat": 42.34828,
+        "lon": -71.08502
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.34918,
+          "lon": -71.08624
+        },
+        "btmRightPoint": {
+          "lat": 42.34738,
+          "lon": -71.0838
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.34804,
+            "lon": -71.08491
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1179070",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840259000995066-US",
+      "poi": {
+        "name": "Jd & E Ecom",
+        "phone": "+(1)-(774)-7773958",
+        "categorySet": [
+          {
+            "id": 9361066
+          }
+        ],
+        "categories": [
+          "shop",
+          "wholesale clubs"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "wholesale clubs"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "92",
+        "streetName": "Blandin Ave",
+        "municipality": "Framingham",
+        "countrySecondarySubdivision": "Middlesex",
+        "countryTertiarySubdivision": "Framingham",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01702",
+        "extendedPostalCode": "017027072",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "92 Blandin Ave, Framingham, MA 01702",
+        "localName": "Framingham"
+      },
+      "position": {
+        "lat": 42.27456,
+        "lon": -71.40934
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.27546,
+          "lon": -71.41056
+        },
+        "btmRightPoint": {
+          "lat": 42.27366,
+          "lon": -71.40812
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.27434,
+            "lon": -71.41079
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1191102",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840259001098798-US",
+      "poi": {
+        "name": "7-Eleven",
+        "phone": "+(1)-(508)-2383984",
+        "brands": [
+          {
+            "name": "7-Eleven"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "www.7-eleven.com",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "11",
+        "streetName": "Columbus Ave",
+        "municipality": "North Easton",
+        "countrySecondarySubdivision": "Bristol",
+        "countryTertiarySubdivision": "Easton",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02356",
+        "extendedPostalCode": "023561819",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "11 Columbus Ave, North Easton, MA 02356",
+        "localName": "North Easton"
+      },
+      "position": {
+        "lat": 42.06023,
+        "lon": -71.10326
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.06113,
+          "lon": -71.10447
+        },
+        "btmRightPoint": {
+          "lat": 42.05933,
+          "lon": -71.10205
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.06002,
+            "lon": -71.10324
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1338814",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840259000772156-US",
+      "poi": {
+        "name": "Quality Mart",
+        "phone": "+(1)-(413)-7838167",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "www.qualitymart.com",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "1352",
+        "streetName": "Allen St",
+        "municipality": "Springfield",
+        "countrySecondarySubdivision": "Hampden",
+        "countryTertiarySubdivision": "Springfield",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01118",
+        "extendedPostalCode": "011182526",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "1352 Allen St, Springfield, MA 01118",
+        "localName": "Springfield"
+      },
+      "position": {
+        "lat": 42.09398,
+        "lon": -72.51515
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.09488,
+          "lon": -72.51636
+        },
+        "btmRightPoint": {
+          "lat": 42.09308,
+          "lon": -72.51394
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.0943,
+            "lon": -72.5153
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1343934",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840251000542096-US",
+      "poi": {
+        "name": "481 Yogi Convenience Store",
+        "phone": "+(1)-(508)-2340009",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "218",
+        "streetName": "Church Ave",
+        "municipality": "Northbridge",
+        "countrySecondarySubdivision": "Worcester",
+        "countryTertiarySubdivision": "Northbridge",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01534",
+        "extendedPostalCode": "015341247",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "218 Church Ave, Northbridge, MA 01534",
+        "localName": "Northbridge"
+      },
+      "position": {
+        "lat": 42.15086,
+        "lon": -71.64396
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.15176,
+          "lon": -71.64517
+        },
+        "btmRightPoint": {
+          "lat": 42.14996,
+          "lon": -71.64275
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.15086,
+            "lon": -71.64396
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1344190",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840259002270220-US",
+      "poi": {
+        "name": "7-Eleven",
+        "phone": "+(1)-(508)-8700054",
+        "brands": [
+          {
+            "name": "7-Eleven"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "https://www.7-eleven.com/locations/ma/westborough/2-south-st-34430",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "2",
+        "streetName": "South St",
+        "municipality": "Westborough",
+        "countrySecondarySubdivision": "Worcester",
+        "countryTertiarySubdivision": "Westborough",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01581",
+        "extendedPostalCode": "015811647",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "2 South St, Westborough, MA 01581",
+        "localName": "Westborough"
+      },
+      "position": {
+        "lat": 42.26935,
+        "lon": -71.6124
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.27025,
+          "lon": -71.61362
+        },
+        "btmRightPoint": {
+          "lat": 42.26845,
+          "lon": -71.61118
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.26933,
+            "lon": -71.61275
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1345214",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840251000501927-US",
+      "poi": {
+        "name": "Country Farms",
+        "phone": "+(1)-(508)-4970908",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "www.gulfoil.com",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "3",
+        "streetName": "Cedar St",
+        "municipality": "Hopkinton",
+        "countrySecondarySubdivision": "Middlesex",
+        "countryTertiarySubdivision": "Hopkinton",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01748",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "3 Cedar St, Hopkinton, MA 01748",
+        "localName": "Hopkinton"
+      },
+      "position": {
+        "lat": 42.2291,
+        "lon": -71.52233
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.23,
+          "lon": -71.52354
+        },
+        "btmRightPoint": {
+          "lat": 42.2282,
+          "lon": -71.52112
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.22911,
+            "lon": -71.52225
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/9725374",
+      "score": 2.1455800533294678,
+      "info": "search:ta:840441000077075-US",
+      "poi": {
+        "name": "Darlington Market",
+        "phone": "+(1)-(401)-7235710",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "614",
+        "streetName": "Central Ave",
+        "municipality": "Pawtucket",
+        "countrySecondarySubdivision": "Providence",
+        "countryTertiarySubdivision": "Pawtucket",
+        "countrySubdivision": "RI",
+        "countrySubdivisionName": "Rhode Island",
+        "postalCode": "02861",
+        "extendedPostalCode": "028615921",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "614 Central Ave, Pawtucket, RI 02861",
+        "localName": "Pawtucket"
+      },
+      "position": {
+        "lat": 41.88689,
+        "lon": -71.3596
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.88779,
+          "lon": -71.36081
+        },
+        "btmRightPoint": {
+          "lat": 41.88599,
+          "lon": -71.35839
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.88666,
+            "lon": -71.35952
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1452350",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840259000422008-US",
+      "poi": {
+        "name": "Richdale Convenience Store",
+        "phone": "+(1)-(978)-8915368",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "352",
+        "streetName": "Washington Street",
+        "municipality": "Haverhill",
+        "countrySecondarySubdivision": "Essex",
+        "countryTertiarySubdivision": "Haverhill",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01832",
+        "extendedPostalCode": "018325336",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "352 Washington Street, Haverhill, MA 01832",
+        "localName": "Haverhill"
+      },
+      "position": {
+        "lat": 42.77084,
+        "lon": -71.09272
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.77174,
+          "lon": -71.09395
+        },
+        "btmRightPoint": {
+          "lat": 42.76994,
+          "lon": -71.09149
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.77095,
+            "lon": -71.09276
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1523518",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840259002355607-US",
+      "poi": {
+        "name": "Union Street Market",
+        "phone": "+(1)-(617)-3949243",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "140",
+        "streetName": "Union St",
+        "municipality": "Everett",
+        "countrySecondarySubdivision": "Middlesex",
+        "countryTertiarySubdivision": "Everett",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02149",
+        "extendedPostalCode": "021494801",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "140 Union St, Everett, MA 02149",
+        "localName": "Everett"
+      },
+      "position": {
+        "lat": 42.40475,
+        "lon": -71.04128
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.40565,
+          "lon": -71.0425
+        },
+        "btmRightPoint": {
+          "lat": 42.40385,
+          "lon": -71.04006
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.40458,
+            "lon": -71.04136
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1524286",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840259000109712-US",
+      "poi": {
+        "name": "Food Land",
+        "phone": "+(1)-(781)-2290108",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "120",
+        "streetName": "Cambridge St",
+        "municipality": "Burlington",
+        "countrySecondarySubdivision": "Middlesex",
+        "countryTertiarySubdivision": "Burlington",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01803",
+        "extendedPostalCode": "018034117",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "120 Cambridge St, Burlington, MA 01803",
+        "localName": "Burlington"
+      },
+      "position": {
+        "lat": 42.49997,
+        "lon": -71.19402
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.50087,
+          "lon": -71.19524
+        },
+        "btmRightPoint": {
+          "lat": 42.49907,
+          "lon": -71.1928
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.49982,
+            "lon": -71.19428
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1527102",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840259001175473-US",
+      "poi": {
+        "name": "Joe's Bargains & Discounts",
+        "phone": "+(1)-(508)-9956500",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "1894",
+        "streetName": "Acushnet Ave",
+        "municipality": "New Bedford",
+        "countrySecondarySubdivision": "Bristol",
+        "countryTertiarySubdivision": "New Bedford",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02746",
+        "extendedPostalCode": "027462109",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "1894 Acushnet Ave, New Bedford, MA 02746",
+        "localName": "New Bedford"
+      },
+      "position": {
+        "lat": 41.67255,
+        "lon": -70.92473
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.67345,
+          "lon": -70.92593
+        },
+        "btmRightPoint": {
+          "lat": 41.67165,
+          "lon": -70.92353
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.6726,
+            "lon": -70.92484
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4065470",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840099000210072-US",
+      "poi": {
+        "name": "One Stop Convenience",
+        "phone": "+(1)-(860)-8991503",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "161",
+        "streetName": "Whitney Street",
+        "municipalitySubdivision": "West End",
+        "municipality": "Hartford",
+        "countrySecondarySubdivision": "Hartford",
+        "countryTertiarySubdivision": "Hartford",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06105",
+        "extendedPostalCode": "061052268",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "161 Whitney Street, Hartford, CT 06105",
+        "localName": "Hartford"
+      },
+      "position": {
+        "lat": 41.77183,
+        "lon": -72.71201
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.77273,
+          "lon": -72.71322
+        },
+        "btmRightPoint": {
+          "lat": 41.77093,
+          "lon": -72.7108
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.77182,
+            "lon": -72.71184
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4066110",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840099000173021-US",
+      "poi": {
+        "name": "Papayo Grocery",
+        "phone": "+(1)-(860)-7279061",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "215",
+        "streetName": "Capen Street",
+        "municipalitySubdivision": "Northeast",
+        "municipality": "Hartford",
+        "countrySecondarySubdivision": "Hartford",
+        "countryTertiarySubdivision": "Hartford",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06120",
+        "extendedPostalCode": "061202071",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "215 Capen Street, Hartford, CT 06120",
+        "localName": "Hartford"
+      },
+      "position": {
+        "lat": 41.78588,
+        "lon": -72.68268
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.78678,
+          "lon": -72.68389
+        },
+        "btmRightPoint": {
+          "lat": 41.78498,
+          "lon": -72.68147
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.78603,
+            "lon": -72.68263
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4136254",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840099001177190-US",
+      "poi": {
+        "name": "Alltown",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetName": "Rt 15",
+        "municipality": "North Haven",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "North Haven",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06473",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "Rt 15, North Haven, CT 06473",
+        "localName": "North Haven"
+      },
+      "position": {
+        "lat": 41.39821,
+        "lon": -72.86888
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.39911,
+          "lon": -72.87008
+        },
+        "btmRightPoint": {
+          "lat": 41.39731,
+          "lon": -72.86768
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.39824,
+            "lon": -72.8689
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4151614",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840099000064857-US",
+      "poi": {
+        "name": "Addeos",
+        "phone": "+(1)-(203)-9221988",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "97",
+        "streetName": "Center Street",
+        "municipality": "Shelton",
+        "countrySecondarySubdivision": "Fairfield",
+        "countryTertiarySubdivision": "Shelton",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06484",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "97 Center Street, Shelton, CT 06484",
+        "localName": "Shelton"
+      },
+      "position": {
+        "lat": 41.316,
+        "lon": -73.09448
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.3169,
+          "lon": -73.09568
+        },
+        "btmRightPoint": {
+          "lat": 41.3151,
+          "lon": -73.09328
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.31568,
+            "lon": -73.09457
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4152894",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840099000089803-US",
+      "poi": {
+        "name": "The Daily Grind",
+        "phone": "+(1)-(203)-7572222",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "167",
+        "streetName": "E Main St",
+        "municipalitySubdivision": "Waterbury Central Business District",
+        "municipality": "Waterbury",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "Waterbury",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06702",
+        "extendedPostalCode": "067022313",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "167 E Main St, Waterbury, CT 06702",
+        "localName": "Waterbury"
+      },
+      "position": {
+        "lat": 41.5558,
+        "lon": -73.04001
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.5567,
+          "lon": -73.04121
+        },
+        "btmRightPoint": {
+          "lat": 41.5549,
+          "lon": -73.03881
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.5551,
+            "lon": -73.03803
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4155710",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840091000293771-US",
+      "poi": {
+        "name": "Ayometla Grocery",
+        "phone": "+(1)-(203)-7522525",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "554",
+        "streetName": "Ferry St",
+        "municipalitySubdivision": "Fair Haven",
+        "municipality": "New Haven",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "New Haven",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06513",
+        "extendedPostalCode": "065133053",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "554 Ferry St, New Haven, CT 06513",
+        "localName": "New Haven"
+      },
+      "position": {
+        "lat": 41.31481,
+        "lon": -72.89709
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.31571,
+          "lon": -72.89829
+        },
+        "btmRightPoint": {
+          "lat": 41.31391,
+          "lon": -72.89589
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.31483,
+            "lon": -72.8969
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/9745470",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840449000322236-US",
+      "poi": {
+        "name": "Cumberland Farms",
+        "phone": "+(1)-(401)-4342245",
+        "brands": [
+          {
+            "name": "Cumberland Farms"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "2812",
+        "streetName": "Pawtucket Ave",
+        "municipality": "East Providence",
+        "countrySecondarySubdivision": "Providence",
+        "countryTertiarySubdivision": "East Providence",
+        "countrySubdivision": "RI",
+        "countrySubdivisionName": "Rhode Island",
+        "postalCode": "02915",
+        "extendedPostalCode": "029154911",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "2812 Pawtucket Ave, East Providence, RI 02915",
+        "localName": "East Providence"
+      },
+      "position": {
+        "lat": 41.79776,
+        "lon": -71.36312
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.79866,
+          "lon": -71.36433
+        },
+        "btmRightPoint": {
+          "lat": 41.79686,
+          "lon": -71.36191
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.79785,
+            "lon": -71.36344
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1167166",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840259002389612-US",
+      "poi": {
+        "name": "Richdale Food Stores",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetName": "Chickering Rd",
+        "municipality": "North Andover",
+        "countrySecondarySubdivision": "Essex",
+        "countryTertiarySubdivision": "North Andover",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01845",
+        "extendedPostalCode": "018455199",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "Chickering Rd, North Andover, MA 01845",
+        "localName": "North Andover"
+      },
+      "position": {
+        "lat": 42.67956,
+        "lon": -71.12393
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.68046,
+          "lon": -71.12515
+        },
+        "btmRightPoint": {
+          "lat": 42.67866,
+          "lon": -71.12271
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.67962,
+            "lon": -71.12413
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1171646",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840259001098718-US",
+      "poi": {
+        "name": "7-Eleven",
+        "phone": "+(1)-(508)-7711297",
+        "brands": [
+          {
+            "name": "7-Eleven"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "www.7-eleven.com",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "696",
+        "streetName": "Yarmouth Rd",
+        "municipalitySubdivision": "Hyannis",
+        "municipality": "Barnstable Town",
+        "countrySecondarySubdivision": "Barnstable",
+        "countryTertiarySubdivision": "Barnstable Town",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02601",
+        "extendedPostalCode": "026012090",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "696 Yarmouth Rd, Barnstable Town, MA 02601",
+        "localName": "Barnstable Town"
+      },
+      "position": {
+        "lat": 41.67138,
+        "lon": -70.26757
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.67228,
+          "lon": -70.26877
+        },
+        "btmRightPoint": {
+          "lat": 41.67048,
+          "lon": -70.26637
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.6714,
+            "lon": -70.26763
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1172542",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840259002295821-US",
+      "poi": {
+        "name": "Village Variety",
+        "phone": "+(1)-(978)-4541315",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "1301",
+        "streetName": "Pawtucket Blvd",
+        "municipalitySubdivision": "Pawtucketville",
+        "municipality": "Lowell",
+        "countrySecondarySubdivision": "Middlesex",
+        "countryTertiarySubdivision": "Lowell",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01854",
+        "extendedPostalCode": "018541816",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "1301 Pawtucket Blvd, Lowell, MA 01854",
+        "localName": "Lowell"
+      },
+      "position": {
+        "lat": 42.6462,
+        "lon": -71.37682
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.6471,
+          "lon": -71.37804
+        },
+        "btmRightPoint": {
+          "lat": 42.6453,
+          "lon": -71.3756
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.64612,
+            "lon": -71.37713
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/4155198",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840091000220571-US",
+      "poi": {
+        "name": "Star Food Market",
+        "phone": "+(1)-(860)-3568000",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "124",
+        "streetName": "Jubilee St",
+        "municipality": "New Britain",
+        "countrySecondarySubdivision": "Hartford",
+        "countryTertiarySubdivision": "New Britain",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06051",
+        "extendedPostalCode": "060512453",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "124 Jubilee St, New Britain, CT 06051",
+        "localName": "New Britain"
+      },
+      "position": {
+        "lat": 41.66922,
+        "lon": -72.76093
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.67012,
+          "lon": -72.76213
+        },
+        "btmRightPoint": {
+          "lat": 41.66832,
+          "lon": -72.75973
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.66902,
+            "lon": -72.76089
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/4166718",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840099000559141-US",
+      "poi": {
+        "name": "Casa Latina Convenience Ma",
+        "phone": "+(1)-(860)-4889515",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "12",
+        "streetName": "Bridge St",
+        "municipality": "New Milford",
+        "countrySecondarySubdivision": "Litchfield",
+        "countryTertiarySubdivision": "New Milford",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06776",
+        "extendedPostalCode": "067763528",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "12 Bridge St, New Milford, CT 06776",
+        "localName": "New Milford"
+      },
+      "position": {
+        "lat": 41.57522,
+        "lon": -73.41384
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.57612,
+          "lon": -73.41504
+        },
+        "btmRightPoint": {
+          "lat": 41.57432,
+          "lon": -73.41264
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.57552,
+            "lon": -73.41402
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/9617214",
+      "score": 2.1455700397491455,
+      "info": "search:ta:840339000126594-US",
+      "poi": {
+        "name": "Bellavance Beverage Co",
+        "phone": "+(1)-(603)-8829722",
+        "categorySet": [
+          {
+            "id": 9361066
+          }
+        ],
+        "url": "www.bellavancebev.com",
+        "categories": [
+          "shop",
+          "wholesale clubs"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "wholesale clubs"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "120",
+        "streetName": "Northwest Blvd",
+        "municipality": "Nashua",
+        "countrySecondarySubdivision": "Hillsborough",
+        "countryTertiarySubdivision": "Nashua",
+        "countrySubdivision": "NH",
+        "countrySubdivisionName": "New Hampshire",
+        "postalCode": "03063",
+        "extendedPostalCode": "030634006",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "120 Northwest Blvd, Nashua, NH 03063",
+        "localName": "Nashua"
+      },
+      "position": {
+        "lat": 42.79254,
+        "lon": -71.54038
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.79344,
+          "lon": -71.54161
+        },
+        "btmRightPoint": {
+          "lat": 42.79164,
+          "lon": -71.53915
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.79297,
+            "lon": -71.5413
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1362398",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840259000057628-US",
+      "poi": {
+        "name": "Downtown Market",
+        "phone": "+(1)-(781)-5817082",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "132",
+        "streetName": "Munroe St",
+        "municipality": "Lynn",
+        "countrySecondarySubdivision": "Essex",
+        "countryTertiarySubdivision": "Lynn",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01901",
+        "extendedPostalCode": "019011214",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "132 Munroe St, Lynn, MA 01901",
+        "localName": "Lynn"
+      },
+      "position": {
+        "lat": 42.46383,
+        "lon": -70.94581
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.46473,
+          "lon": -70.94703
+        },
+        "btmRightPoint": {
+          "lat": 42.46293,
+          "lon": -70.94459
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.4637,
+            "lon": -70.9457
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1447390",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840251000567390-US",
+      "poi": {
+        "name": "The Lucky 7",
+        "phone": "+(1)-(978)-4744110",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "200",
+        "streetName": "Brickstone Sq",
+        "municipality": "Andover",
+        "countrySecondarySubdivision": "Essex",
+        "countryTertiarySubdivision": "Andover",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01810",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "200 Brickstone Sq, Andover, MA 01810",
+        "localName": "Andover"
+      },
+      "position": {
+        "lat": 42.67457,
+        "lon": -71.14598
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.67547,
+          "lon": -71.1472
+        },
+        "btmRightPoint": {
+          "lat": 42.67367,
+          "lon": -71.14476
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.67509,
+            "lon": -71.14631
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1453790",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840251000503107-US",
+      "poi": {
+        "name": "Convenience Station",
+        "phone": "+(1)-(978)-3721872",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "105",
+        "streetName": "White St",
+        "municipality": "Haverhill",
+        "countrySecondarySubdivision": "Essex",
+        "countryTertiarySubdivision": "Haverhill",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01830",
+        "extendedPostalCode": "018305738",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "105 White St, Haverhill, MA 01830",
+        "localName": "Haverhill"
+      },
+      "position": {
+        "lat": 42.77973,
+        "lon": -71.07957
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.78063,
+          "lon": -71.0808
+        },
+        "btmRightPoint": {
+          "lat": 42.77883,
+          "lon": -71.07834
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.77984,
+            "lon": -71.07963
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1454142",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840251000541922-US",
+      "poi": {
+        "name": "7-Eleven",
+        "phone": "+(1)-(781)-2464755",
+        "brands": [
+          {
+            "name": "7-Eleven"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "www.7-eleven.com",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "193",
+        "streetName": "Albion St",
+        "municipality": "Wakefield",
+        "countrySecondarySubdivision": "Middlesex",
+        "countryTertiarySubdivision": "Wakefield",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01880",
+        "extendedPostalCode": "018803171",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "193 Albion St, Wakefield, MA 01880",
+        "localName": "Wakefield"
+      },
+      "position": {
+        "lat": 42.50075,
+        "lon": -71.07686
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.50165,
+          "lon": -71.07808
+        },
+        "btmRightPoint": {
+          "lat": 42.49985,
+          "lon": -71.07564
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.50057,
+            "lon": -71.07654
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1503198",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840259001120121-US",
+      "poi": {
+        "name": "7-Eleven",
+        "phone": "+(1)-(781)-5931867",
+        "brands": [
+          {
+            "name": "7-Eleven"
+          }
+        ],
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "url": "www.7-eleven.com",
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "625",
+        "streetName": "Boston St",
+        "municipality": "Lynn",
+        "countrySecondarySubdivision": "Essex",
+        "countryTertiarySubdivision": "Lynn",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01905",
+        "extendedPostalCode": "019052090",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "625 Boston St, Lynn, MA 01905",
+        "localName": "Lynn"
+      },
+      "position": {
+        "lat": 42.46373,
+        "lon": -70.97634
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.46463,
+          "lon": -70.97756
+        },
+        "btmRightPoint": {
+          "lat": 42.46283,
+          "lon": -70.97512
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.46361,
+            "lon": -70.97631
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1503966",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840259001933901-US",
+      "poi": {
+        "name": "Julio's Convenience",
+        "phone": "+(1)-(978)-2080270",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "140",
+        "streetName": "Water St",
+        "municipality": "Lawrence",
+        "countrySecondarySubdivision": "Essex",
+        "countryTertiarySubdivision": "Lawrence",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01841",
+        "extendedPostalCode": "018414722",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "140 Water St, Lawrence, MA 01841",
+        "localName": "Lawrence"
+      },
+      "position": {
+        "lat": 42.69947,
+        "lon": -71.17149
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.70037,
+          "lon": -71.17271
+        },
+        "btmRightPoint": {
+          "lat": 42.69857,
+          "lon": -71.17027
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.6996,
+            "lon": -71.17167
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1507294",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840259000776081-US",
+      "poi": {
+        "name": "Moon M Mart",
+        "phone": "+(1)-(774)-2033589",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "83",
+        "streetName": "Pleasant St",
+        "municipality": "Attleboro",
+        "countrySecondarySubdivision": "Bristol",
+        "countryTertiarySubdivision": "Attleboro",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02703",
+        "extendedPostalCode": "027032305",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "83 Pleasant St, Attleboro, MA 02703",
+        "localName": "Attleboro"
+      },
+      "position": {
+        "lat": 41.94698,
+        "lon": -71.27968
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.94788,
+          "lon": -71.28089
+        },
+        "btmRightPoint": {
+          "lat": 41.94608,
+          "lon": -71.27847
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.94698,
+            "lon": -71.27968
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1511646",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840259001033661-US",
+      "poi": {
+        "name": "ARA Convenience",
+        "phone": "+(1)-(413)-7460868",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "560",
+        "streetName": "State St",
+        "municipality": "Springfield",
+        "countrySecondarySubdivision": "Hampden",
+        "countryTertiarySubdivision": "Springfield",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01109",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "560 State St, Springfield, MA 01109",
+        "localName": "Springfield"
+      },
+      "position": {
+        "lat": 42.10975,
+        "lon": -72.57387
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.11065,
+          "lon": -72.57508
+        },
+        "btmRightPoint": {
+          "lat": 42.10885,
+          "lon": -72.57266
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.10947,
+            "lon": -72.57382
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/1518046",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840259001089086-US",
+      "poi": {
+        "name": "Georges Variety",
+        "phone": "+(1)-(508)-6725000",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "337",
+        "streetName": "Globe St",
+        "municipality": "Fall River",
+        "countrySecondarySubdivision": "Bristol",
+        "countryTertiarySubdivision": "Fall River",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02724",
+        "extendedPostalCode": "027242665",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "337 Globe St, Fall River, MA 02724",
+        "localName": "Fall River"
+      },
+      "position": {
+        "lat": 41.68842,
+        "lon": -71.17455
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.68932,
+          "lon": -71.17575
+        },
+        "btmRightPoint": {
+          "lat": 41.68752,
+          "lon": -71.17335
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.68842,
+            "lon": -71.17455
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4071390",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840099000033628-US",
+      "poi": {
+        "name": "Broad Street Convience",
+        "phone": "+(1)-(860)-2223530",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "264",
+        "streetName": "Broad St",
+        "municipality": "Norwich",
+        "countrySecondarySubdivision": "New London",
+        "countryTertiarySubdivision": "Norwich",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06360",
+        "extendedPostalCode": "063604523",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "264 Broad St, Norwich, CT 06360",
+        "localName": "Norwich"
+      },
+      "position": {
+        "lat": 41.53175,
+        "lon": -72.06979
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.53265,
+          "lon": -72.07099
+        },
+        "btmRightPoint": {
+          "lat": 41.53085,
+          "lon": -72.06859
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.53153,
+            "lon": -72.06991
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4134750",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840099000587792-US",
+      "poi": {
+        "name": "Indulge Coffee Co",
+        "phone": "+(1)-(860)-4158575",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "17",
+        "streetName": "High St",
+        "municipality": "Stonington",
+        "countrySecondarySubdivision": "New London",
+        "countryTertiarySubdivision": "Stonington",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06378",
+        "extendedPostalCode": "063781226",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "17 High St, Stonington, CT 06378",
+        "localName": "Stonington"
+      },
+      "position": {
+        "lat": 41.33574,
+        "lon": -71.90676
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.33664,
+          "lon": -71.90796
+        },
+        "btmRightPoint": {
+          "lat": 41.33484,
+          "lon": -71.90556
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.33589,
+            "lon": -71.90676
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4145630",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840099000546179-US",
+      "poi": {
+        "name": "Tropicana Product Sales",
+        "phone": "+(1)-(203)-2507186",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "615",
+        "streetName": "W Johnson Ave",
+        "municipality": "Cheshire",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "Cheshire",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06410",
+        "extendedPostalCode": "064104529",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "615 W Johnson Ave, Cheshire, CT 06410",
+        "localName": "Cheshire"
+      },
+      "position": {
+        "lat": 41.55696,
+        "lon": -72.91215
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.55786,
+          "lon": -72.91335
+        },
+        "btmRightPoint": {
+          "lat": 41.55606,
+          "lon": -72.91095
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.55689,
+            "lon": -72.9109
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p0/4149214",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840099000743281-US",
+      "poi": {
+        "name": "Gms Mini Mart",
+        "phone": "+(1)-(860)-8878611",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "760",
+        "streetName": "N Main St",
+        "municipality": "Norwich",
+        "countrySecondarySubdivision": "New London",
+        "countryTertiarySubdivision": "Norwich",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06360",
+        "extendedPostalCode": "063602821",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "760 N Main St, Norwich, CT 06360",
+        "localName": "Norwich"
+      },
+      "position": {
+        "lat": 41.54331,
+        "lon": -72.05463
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.54421,
+          "lon": -72.05583
+        },
+        "btmRightPoint": {
+          "lat": 41.54241,
+          "lon": -72.05343
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.54346,
+            "lon": -72.05441
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1175518",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840259001014258-US",
+      "poi": {
+        "name": "Osjl Store",
+        "phone": "+(1)-(508)-8240250",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "70",
+        "streetName": "Taunton Depot Dr",
+        "municipality": "Taunton",
+        "countrySecondarySubdivision": "Bristol",
+        "countryTertiarySubdivision": "Taunton",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "02780",
+        "extendedPostalCode": "027806954",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "70 Taunton Depot Dr, Taunton, MA 02780",
+        "localName": "Taunton"
+      },
+      "position": {
+        "lat": 41.87715,
+        "lon": -71.06629
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.87805,
+          "lon": -71.0675
+        },
+        "btmRightPoint": {
+          "lat": 41.87625,
+          "lon": -71.06508
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.87825,
+            "lon": -71.06691
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1188574",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840259001425838-US",
+      "poi": {
+        "name": "Artisan Beverage Coop",
+        "phone": "+(1)-(413)-7739700",
+        "categorySet": [
+          {
+            "id": 9361066
+          }
+        ],
+        "url": "katalystkombucha.com",
+        "categories": [
+          "shop",
+          "wholesale clubs"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "wholesale clubs"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "324",
+        "streetName": "Wells St",
+        "municipality": "Greenfield",
+        "countrySecondarySubdivision": "Franklin",
+        "countryTertiarySubdivision": "Greenfield Town",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01301",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "324 Wells St, Greenfield, MA 01301",
+        "localName": "Greenfield"
+      },
+      "position": {
+        "lat": 42.60289,
+        "lon": -72.6083
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.60379,
+          "lon": -72.60952
+        },
+        "btmRightPoint": {
+          "lat": 42.60199,
+          "lon": -72.60708
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.60299,
+            "lon": -72.60702
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/1338590",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840251000419179-US",
+      "poi": {
+        "name": "Plumtree Marketing",
+        "phone": "+(1)-(413)-7830188",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "454",
+        "streetName": "Plumtree Rd",
+        "municipality": "Springfield",
+        "countrySecondarySubdivision": "Hampden",
+        "countryTertiarySubdivision": "Springfield",
+        "countrySubdivision": "MA",
+        "countrySubdivisionName": "Massachusetts",
+        "postalCode": "01118",
+        "extendedPostalCode": "011181626",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "454 Plumtree Rd, Springfield, MA 01118",
+        "localName": "Springfield"
+      },
+      "position": {
+        "lat": 42.09833,
+        "lon": -72.53144
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 42.09923,
+          "lon": -72.53265
+        },
+        "btmRightPoint": {
+          "lat": 42.09743,
+          "lon": -72.53023
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 42.09809,
+            "lon": -72.53128
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/4153822",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840099000500404-US",
+      "poi": {
+        "name": "Cindy Market",
+        "phone": "+(1)-(203)-5741486",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "874",
+        "streetName": "N Main St",
+        "municipality": "Waterbury",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "Waterbury",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06704",
+        "extendedPostalCode": "067043514",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "874 N Main St, Waterbury, CT 06704",
+        "localName": "Waterbury"
+      },
+      "position": {
+        "lat": 41.5644,
+        "lon": -73.03037
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.5653,
+          "lon": -73.03157
+        },
+        "btmRightPoint": {
+          "lat": 41.5635,
+          "lon": -73.02917
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.56448,
+            "lon": -73.03048
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/4155454",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840099001220653-US",
+      "poi": {
+        "name": "Dollar City",
+        "categorySet": [
+          {
+            "id": 9361009
+          }
+        ],
+        "categories": [
+          "convenience stores",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "convenience stores"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "municipality": "Hamden",
+        "countrySecondarySubdivision": "New Haven",
+        "countryTertiarySubdivision": "Hamden",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06514",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "Hamden, CT 06514",
+        "localName": "Hamden"
+      },
+      "position": {
+        "lat": 41.36266,
+        "lon": -72.92331
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.36356,
+          "lon": -72.92451
+        },
+        "btmRightPoint": {
+          "lat": 41.36176,
+          "lon": -72.92211
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.36251,
+            "lon": -72.92337
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/4157150",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840099000272202-US",
+      "poi": {
+        "name": "Country Marketplace",
+        "phone": "+(1)-(860)-8484700",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "url": "Mobil.com",
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "1224",
+        "streetName": "Old Colchester Rd",
+        "municipality": "Oakdale",
+        "countrySecondarySubdivision": "New London",
+        "countryTertiarySubdivision": "Montville",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06370",
+        "extendedPostalCode": "063701672",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "1224 Old Colchester Rd, Oakdale, CT 06370",
+        "localName": "Oakdale"
+      },
+      "position": {
+        "lat": 41.47561,
+        "lon": -72.19038
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.47651,
+          "lon": -72.19158
+        },
+        "btmRightPoint": {
+          "lat": 41.47471,
+          "lon": -72.18918
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.47575,
+            "lon": -72.19023
+          }
+        }
+      ]
+    },
+    {
+      "type": "POI",
+      "id": "US/POI/p1/4162526",
+      "score": 2.1455600261688232,
+      "info": "search:ta:840099001188703-US",
+      "poi": {
+        "name": "Garys Grocerys",
+        "phone": "+(1)-(860)-4544918",
+        "categorySet": [
+          {
+            "id": 9361023
+          }
+        ],
+        "categories": [
+          "food drinks: grocers",
+          "shop"
+        ],
+        "classifications": [
+          {
+            "code": "SHOP",
+            "names": [
+              {
+                "nameLocale": "en-US",
+                "name": "shop"
+              },
+              {
+                "nameLocale": "en-US",
+                "name": "food drinks: grocers"
+              }
+            ]
+          }
+        ]
+      },
+      "address": {
+        "streetNumber": "76",
+        "streetName": "Union St",
+        "municipality": "Rockville",
+        "countrySecondarySubdivision": "Tolland",
+        "countryTertiarySubdivision": "Vernon",
+        "countrySubdivision": "CT",
+        "countrySubdivisionName": "Connecticut",
+        "postalCode": "06066",
+        "extendedPostalCode": "060663159",
+        "countryCode": "US",
+        "country": "United States",
+        "countryCodeISO3": "USA",
+        "freeformAddress": "76 Union St, Rockville, CT 06066",
+        "localName": "Rockville"
+      },
+      "position": {
+        "lat": 41.86728,
+        "lon": -72.4531
+      },
+      "viewport": {
+        "topLeftPoint": {
+          "lat": 41.86818,
+          "lon": -72.45431
+        },
+        "btmRightPoint": {
+          "lat": 41.86638,
+          "lon": -72.45189
+        }
+      },
+      "entryPoints": [
+        {
+          "type": "main",
+          "position": {
+            "lat": 41.8672,
+            "lon": -72.45318
+          }
+        }
+      ]
+    }
+  ]
+}
