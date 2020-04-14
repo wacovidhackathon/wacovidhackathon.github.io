@@ -28,16 +28,12 @@
             {{ form.longitude.label }}<br>
             {{ form.longitude(size=20) }}
         </p>
-        <p onclick="myFunction()">{{ form.submit() }}</p>
+        <p>{{ form.submit() }}</p>
 
     </form>
 
     {% endblock %}
-    <script>
-        function myFunction() {
-            location.replace("/store")
-        }
-    </script>
+    
 
 </body>
 </html> 

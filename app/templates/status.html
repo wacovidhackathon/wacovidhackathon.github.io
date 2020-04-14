@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>TPCraze</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height: 100%; /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #eee), color-stop(50%, #eee),color-stop(50%, #eee), color-stop(100%, #eee));
+            background-image: -webkit-linear-gradient( left, #eee, #eee 50%, #ccc 50%, #ccc 100%);
+            background-image: -moz-linear-gradient( left, #eee, #eee 50%, #ccc 50%, #ccc 100%);
+            background-image: -ms-linear-gradient( left, #eee, #eee 50%, #ccc 50%, #ccc 100%);
+            background-image: -o-linear-gradient( left, #eee, #eee 50%, #ccc 50%, #ccc 100%);
+            display: table;
+            clear: both;
+        }
+
+
+
+
+        #rcorners1 {
+            border-radius: 100px;
+            background: #12e012;
+            padding: 20px;
+            width: 95%;
+            height: 30px;
+        }
+
+        #rcorners2 {
+            border-radius: 100px;
+            background: #64d164;
+            padding: 20px;
+            width: 95%;
+            height: 30px;
+        }
+        #rcorners3 {
+            border-radius: 100px;
+            background: #ebeb21;
+            padding: 20px;
+            width: 95%;
+            height: 30px;
+        }
+        #rcorners4 {
+            border-radius: 100px;
+            background: #d95050;
+            padding: 20px;
+            width: 95%;
+            height: 30px;
+        }
+        #rcorners5 {
+            border-radius: 100px;
+            background: #d92525;
+            padding: 20px;
+            width: 95%;
+            height: 30px;
+        }
+        p.clear {
+          clear: both;
+        }
+        .verticalLine {
+          border-left: thick solid #ff0000;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="row group">
+        <div class="column">
+            <h1> {{store}} </h1>
+            <form method="POST">
+                {{ form.csrf_token }}
+                {{form.item_option}}
+                {{form.status_option}}
+                <p>{{ form.submit() }}</p>
+            </form>
+        </div>
+        <div class="column">
+            <h1> Status </h1>
+            <div>
+                {%for i in range(0, len)%}
+                {% if i == 0 %}
+                <p id="rcorners{{colors[i]}}">{{messages[i]}}</p>
+                {% else %}
+                <p id="rcorners{{colors[i]}}" class="clear">{{messages[i]}}</p>
+                {% endif %}
+                {%endfor%}
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html> 

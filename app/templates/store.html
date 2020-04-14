@@ -10,9 +10,7 @@
             max-width: 1000px;
         }
 
-        BODY {
-            text-align: center
-        }
+        
     </style>
 </head>
 <body>
@@ -21,23 +19,13 @@
 
         <a href="/index">Home</a>
     </div>
-
-    <div id="store">
-        <table class="table table-striped" style="max-width: 300px;">
-            <thead>
-                <tr>
-                    <th>Store Listing</th>
-                    
-                </tr>
-            </thead>
-            
-            <tr>
-                <td>{{ store }}</td>
+    <h1>Stores Near You </h1>
+    <form method="POST">
+        {{ form.csrf_token }}
+        {{form.stores}}
+        <p>{{ form.submit() }}</p>
         
-            </tr>
-            
-        </table>
-    </div>
+    </form>
 
 
 </body>
