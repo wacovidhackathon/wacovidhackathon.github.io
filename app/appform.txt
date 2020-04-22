@@ -220,7 +220,10 @@ def status():
         print()
         if session.get('user')['user_email'] == '':
             print("hello")
-            return redirect("/item-status")
+            return render_template("status.html", signIn=1, store=session['selected_store'], form=status_form,
+                                   messages=messages,
+                                   len=len(messages), colors=colors, type_item=type_item, basic_info=basic_info,
+                                   selected_item=getItem(session.get('selected_item')))
         user_email = session.get('user')['user_email']
         flash('Status requested from the user {}'.format(status_form.status_option.data))
         #flash('Status requested from the user {}'.format(status_form.item_option.data))
@@ -269,13 +272,10 @@ def status():
 
     #user_email = request.get_json()
 
-    if session.get('user')['user_email'] == '':
-        return render_template("status.html", signIn=0, store=session['selected_store'], form=status_form,
-                               messages=messages,
-                               len=len(messages), colors=colors, type_item=type_item, basic_info=basic_info,
-                               selected_item=getItem(session.get('selected_item')))
-    else:
-        return render_template("status.html", signIn = 1, store=session['selected_store'], form=status_form, messages=messages,
+
+
+
+    return render_template("status.html", signIn = 1, store=session['selected_store'], form=status_form, messages=messages,
                                len=len(messages), colors=colors, type_item=type_item, basic_info=basic_info, selected_item = getItem(session.get('selected_item')))
 
 

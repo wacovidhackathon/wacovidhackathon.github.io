@@ -1,17 +1,17 @@
 # importing modules
 import time
 
-import sshtunnel as sshtunnel
+#import sshtunnel as sshtunnel
 
 import tomtomSearch
 from flask_bootstrap import Bootstrap
-from geopy.geocoders import GoogleV3
 from flask import Flask, render_template, request, redirect, flash, session, jsonify, url_for
 from flask_wtf import FlaskForm
 from wtforms import StringField, BooleanField, SubmitField, IntegerField, SelectField, RadioField
 from wtforms.validators import DataRequired
-import mysql.connector as mysql
+#import mysql.connector as mysql
 from datetime import datetime
+from flaskext.mysql import MySQL
 
 '''
 TODO:
@@ -42,12 +42,7 @@ class StoreForm(FlaskForm):
 
 
 
-db = mysql.connect(
-    host="localhost",
-    user="root",
-    passwd="$Soccer2001%",
-    database="servers"
-)
+
 
 
 
@@ -57,8 +52,19 @@ app = Flask(__name__)
 #Bootstrap(app)
 app.config['SECRET_KEY'] = 'WAcodevid2020'
 
+mysql = MySQL()
+
+  # MySQL configurations
+app.config['MYSQL_DATABASE_USER'] = 'WestfordCodevid1'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'WAcodevid2020'
+app.config['MYSQL_DATABASE_DB'] = 'WestfordCodevid1$codevid'
+app.config['MYSQL_DATABASE_HOST'] = 'WestfordCodevid123.mysql.pythonanywhere-services.com'
+mysql.init_app(app)
+
+
 
 def getStore(latitude, longitude): # get stores from coordinates
+    db = mysql.connect()
     cursor = db.cursor()
     # SELECT school, student FROM table1 LIMIT 1;
     store = []
@@ -91,11 +97,13 @@ def getStore(latitude, longitude): # get stores from coordinates
             store.append(data_store[0][0])
             ids.append(data_id[0][0])
             addresses.append((data_address[0][0]))
-
+    cursor.close()
+    db.close()
     return store, ids, addresses
 
 
 def getItemStatus(selected_item, store_id, num_to_average): #get the status of the selected item using moving average
+    db = mysql.connect()
     cursor = db.cursor()
     query = "SELECT rating FROM status_list WHERE id = '" + str(store_id) + "' AND item = " + str(selected_item) +";"
     cursor.execute(query)
@@ -111,6 +119,8 @@ def getItemStatus(selected_item, store_id, num_to_average): #get the status of t
             moving_average += status_values[i]
 
         moving_average = moving_average/min(num_to_average, len(status_values))
+    cursor.close()
+    db.close()
     return round(moving_average)
 
 
@@ -158,7 +168,7 @@ def login():
 @app.route('/location', methods=['GET', 'POST'])
 @app.route('/', methods=['GET', 'POST'])
 def location():
-
+    db = mysql.connect()
     cursor = db.cursor()
     form = LocationForm()
 
@@ -176,14 +186,18 @@ def location():
         session['stores'] = stores
         session['ids'] = ids
         session['addresses'] = addresses
+        cursor.close()
+        db.close()
         return redirect('/store')
 
-
+    cursor.close()
+    db.close()
     return render_template('location.html', title='Location', form = form)
 
 
 @app.route('/store', methods=['GET', 'POST'])
 def stores():
+    db = mysql.connect()
     cursor = db.cursor()
 
     form = StoreForm()
@@ -195,7 +209,8 @@ def stores():
 
 
         session['selected_id'] = session.get('ids')[option]
-
+        cursor.close()
+        db.close()
         return redirect('/item-status')
     status_values = []
 
@@ -204,14 +219,15 @@ def stores():
         form.stores.choices.append((str(i), (session.get('stores')[i] + ' - ' + session.get('addresses')[i])))
         radio[i] = str(session.get('stores')[i] + ' - ' + session.get('addresses')[i])
         status_values.append(getItemStatus(session.get('selected_item'), session.get('ids')[i], 5))
-
+    cursor.close()
+    db.close()
     return render_template("store.html", len=len(form.stores.choices), form=form, status_values=status_values, radio = radio, selected_item_index = int(session.get('selected_item')), selected_item_name = getItem(session.get('selected_item')))
 
 
 
 @app.route('/item-status', methods=['GET', 'POST'])
 def status():
-
+    db = mysql.connect()
     status_form = StatusForm()
     cursor = db.cursor()
 
@@ -220,6 +236,8 @@ def status():
         print()
         if session.get('user')['user_email'] == '':
             print("hello")
+            cursor.close()
+            db.close()
             return redirect("/item-status")
         user_email = session.get('user')['user_email']
         flash('Status requested from the user {}'.format(status_form.status_option.data))
@@ -233,7 +251,8 @@ def status():
         cursor.execute(query)
         cursor.execute("COMMIT;")
         time.sleep(0.5)
-
+        cursor.close()
+        db.close()
         return redirect('/item-status')
 
 
@@ -268,7 +287,8 @@ def status():
     basic_info.append(raw_address[0][0])
 
     #user_email = request.get_json()
-
+    cursor.close()
+    db.close()
     if session.get('user')['user_email'] == '':
         return render_template("status.html", signIn=0, store=session['selected_store'], form=status_form,
                                messages=messages,
@@ -290,4 +310,4 @@ def homepage():
 
 if __name__ == '__main__':
     app.run(use_reloader=True, debug=True)
-    print("hello")
+

@@ -1,151 +1,152 @@
-<!DOCTYPE html>
+{% extends "login.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+{{ super() }}
+<style>
+    .container {
+        max-width: 1000px;
+    }
 
-<html>
-<head>
-    <title>TPCraze</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <style>
-        html, body {
-            min-height: 100%;
-            margin: 0;
-            padding = 0;
-        }
-        div {
-            height: 100vh;
-        }
-        * {
-            box-sizing: border-box;
-        }
+    .ex2 {
+        display: inline;
+    }
 
-        /* Create two equal columns that floats next to each other */
-        .column {
-            float: left;
-            width: 50%;
-            padding: 20px;
-            height: 100%;
-            
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-            display: table;
-            clear: both;
-        }
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 53%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -ms-transform: translateX(-90%);
+        transform: translateX(-90%);
+    }
 
 
 
 
-        #rcorners1 {
-            border-radius: 100px;
-            background: #12e012;
-            padding: 10px;
-            width: 95%;
-            height: 60px;
-        }
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 20px;
+        height: 100%;
+    }
 
-        #rcorners2 {
-            border-radius: 100px;
-            background: #64d164;
-            padding: 10px;
-            width: 95%;
-            height: 60px;
-        }
-        #rcorners3 {
-            border-radius: 100px;
-            background: #ebeb21;
-            padding: 10px;
-            width: 95%;
-            height: 60px;
-        }
-        #rcorners4 {
-            border-radius: 100px;
-            background: #d95050;
-            padding: 10px;
-            width: 95%;
-            height: 60px;
-        }
-        #rcorners5 {
-            border-radius: 100px;
-            background: #d92525;
-            padding: 10px;
-            width: 95%;
-            height: 60px;
-        }
-        p.clear {
-          clear: both;
-        }
-        .verticalLine {
-          border-left: thick solid #ff0000;
-        }
-        .header {
-            padding: 15px;
-            text-align: center;
-            background: #1abc9c;
-            color: white;
-            font-size: 30px;
-        }
+    /* Clear floats after the columns */
+    .row:after {
+        display: table;
+        clear: both;
+    }
 
-    </style>
-</head>
-<body>
-    <div class="header">
-        <img src="static\tp.png" width="50" height="50">
-        <h1 style="display:inline">TP-CRAZE</h1>
-        <img src="static\tp.png" width="50" height="50">
+
+    #rcorners1 {
+        border-radius: 100px;
+        background: #12e012;
+        padding: 10px;
+        width: 95%;
+        height: 70px;
+    }
+
+    #rcorners2 {
+        border-radius: 100px;
+        background: #64d164;
+        padding: 10px;
+        width: 95%;
+        height: 70px;
+    }
+
+    #rcorners3 {
+        border-radius: 100px;
+        background: #ebeb21;
+        padding: 10px;
+        width: 95%;
+        height: 70px;
+    }
+
+    #rcorners4 {
+        border-radius: 100px;
+        background: #d95050;
+        padding: 10px;
+        width: 95%;
+        height: 70px;
+    }
+
+    #rcorners5 {
+        border-radius: 100px;
+        background: #d92525;
+        padding: 10px;
+        width: 95%;
+        height: 70px;
+    }
+</style>
+
+{% endblock %}
+{% block content %}
+
+<div class="row group">
+    <div class="column new_div">
+        <h4> {{store}} </h4>
+        <h6>Update Status for {{selected_item}}:</h6>
+        {% if signIn == True %}
+        <form method="POST">
+            {{ form.csrf_token }}
+
+            {{form.status_option(class = "badge ex2")}}
+            <br />
+          
+
+            <p>{{ form.submit(class="btn darken-2 z-depth-0") }}</p>
+        </form>
+        {% else %}
+        <p>You must log in to provide a status update.</p>
+        {% endif %}
+        <h4> Store Information </h4>
+        <h6> Address: {{basic_info[0]}} </h6>
+        <h6> Phone: {{basic_info[1]}} </h6>
     </div>
-
-    <div class="row group">
-        <div class="column" style="background-color:#aaa;">
-            <h1> {{store}} </h1>
-            <form method="POST">
-                {{ form.csrf_token }}
-                {{form.item_option}}
-                {{form.status_option}}
-                <p>{{ form.submit() }}</p>
-            </form>
-            <h2> Store Information </h2>
-            <h3> {{basic_info}} </h3>
-        </div>
-        <div class="column" style="background-color:#f1f1f1;">
-            <h1> Status </h1>
-            <div>
-                {%for i in range(0, len)%}
-                {% if i == 0 %}
-                {% if type_item[i] == 1 %}
-                <p id="rcorners{{colors[i]}}">
-                    <img src="static\tp.png" width="20" height="20">
-                    {{messages[i]}}
-                </p>
-                {% else %}
-                <p id="rcorners{{colors[i]}}">
-                    <img src="static\hand_sanitizer.png" width="20" height="20">
-                    {{messages[i]}}
-                </p>
-                {% endif %}
-                {% else %}
-                {% if type_item[i] == 1 %}
-                <p id="rcorners{{colors[i]}}" class="clear">
-                    <img src="static\tp.png" width="20" height="20">
-                    {{messages[i]}}
-                </p>
-                {% else %}
-                <p id="rcorners{{colors[i]}}" class="clear">
-                    <img src="static\hand_sanitizer.png" width="20" height="20">
-                    {{messages[i]}}
-                </p>
-                {% endif %}
-                {% endif %}
-                {%endfor%}
+    <div class="column new_div">
+        <h4> Status for {{selected_item}}:</h4>
+        <div>
+            {%for i in range(0, len)%}
+            {% if i == 0 %}
+            {% if type_item[i] == 1 %}
+            <p id="rcorners{{colors[i]}}">
+                <img src="static\tp.png" width="20" height="20">
+                {{messages[i]}}
+            </p>
+            {% else %}
+            <p id="rcorners{{colors[i]}}">
+                <img src="static\hand_sanitizer.png" width="20" height="20">
+                {{messages[i]}}
+            </p>
+            {% endif %}
+            {% else %}
+            {% if type_item[i] == 1 %}
+            <p id="rcorners{{colors[i]}}" class="clear">
+                <img src="static\tp.png" width="20" height="20">
+                {{messages[i]}}
+            </p>
+            {% else %}
+            <p id="rcorners{{colors[i]}}" class="clear">
+                <img src="static\hand_sanitizer.png" width="20" height="20">
+                {{messages[i]}}
+            </p>
+            {% endif %}
+            {% endif %}
+            {%endfor%}
 
 
-            </div>
         </div>
     </div>
+</div>
+<script>
+
+    
+</script>
+
+    {% endblock %}
 
 
 
 
-
-</body>
-</html> 

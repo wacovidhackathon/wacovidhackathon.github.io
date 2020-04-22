@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>TPCraze</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <style>
+        .container {
+            max-width: 1000px;
+        }
+        .ex2 {display: inline;}
+
+        .vertical-center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 53%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            -ms-transform: translateX(-90%);
+            transform: translateX(-90%);
+        }
+
+        .in-center1{
+            position: absolute;
+  top: 15px;
+  left: 32%;
+        }
+                .in-center2{
+            position: absolute;
+              top: 15px;
+              left: 62.5%;
+        }
+
+        .header {
+            padding: 15px;
+
+            text-align: center;
+            background: #1abc9c;
+            text-align:center;
+            color: white;
+            font-size: 30px;
+        }
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 20px;
+            height: 100%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body style="background-color:powderblue;">
+
+    <div class="header">
+        <img class ="in-center1"src="static\tp.png" width="70" height="70">
+        <h1 style="display:inline">TP-CRAZE</h1>
+        <img class ="in-center2"src="static\tp.png" width="70" height="70">
+    </div>
+
+
+
+    <div class="row group">
+        <form method="POST">
+            {{ form.csrf_token }}
+            <div class="column new_div">
+                <br />
+                <br />
+                <br />
+                <br />
+                <h5 style="display: inline-block">Your Address:</h5>
+                {{form.address(class = "ex2")}}
+            </div>
+            <div class="column new_div">
+                <br />
+                <br />
+                <br />
+                <br />
+                <h5 style="display: inline-block">
+                    Item:   
+                </h5>
+                {{form.item_option(class = "badge ex2")}}
+
+            </div>
+
+    </div>
+    <div class="vertical-center">
+    {{ form.submit(class="btn darken-2 z-depth-0") }}
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(getData);
+            } else {
+                console.log("Geolocation is not supported by this browser.");
+            }
+            //window.location = "/store";
+            document.getElementById("myBtn").disabled = true;
+        }
+        function getData(position) {
+
+            fetch('/location', {
+
+                // Specify the method
+                method: 'POST',
+                redirect: 'follow'
+                                // A JSON payload
+                                body: JSON.stringify({
+                    "latitude": position.coords.latitude,
+                    "longitude": position.coords.longitude
+                })
+
+            });
+
+        }
+
+        function redirect_page() {
+            window.location.href = "/store";
+        }
+
+    </script>
+
+
+</body>
+</html> 

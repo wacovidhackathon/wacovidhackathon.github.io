@@ -1,48 +1,70 @@
-<!DOCTYPE html>
+{% extends "login.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+{{ super() }}
+<style>
+    .list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+</style>
 
-<html>
-<head>
-    <title>TPCraze</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <style>
-        .container {
-            max-width: 1000px;
-        }
-        .header {
-            padding: 15px;
-            text-align: center;
-            background: #1abc9c;
-            color: white;
-            font-size: 30px;
-        }
-
-        
-    </style>
-</head>
-<body>
-
-    <div class="header">
-        <img src="static\tp.png" width="50" height="50">
-        <h1 style="display:inline">TP-CRAZE</h1>
-        <img src="static\tp.png" width="50" height="50">
-    </div>
-
-    <h1>Stores Near You </h1>
-    <form method="POST">
-        {% for subfield in form.stores %}
-
-        <p style="display: inline">{{ subfield }}</pstyle="display:>
-        <p style="display: inline">{{ subfield.label }}</p>
-        <img src="static\tp.png" width="20" height="20">
-        <br />
+{% endblock %}
+{% block content %}
 
 
-        {% endfor %}
-        <p>{{ form.submit() }}</p>
-    </form>
+<h4>Stores Near You: </h4>
+<h6>Item Selected: {{selected_item_name}}</h6>
+<form method="POST">
+    <ul class="list-inline">
+    {% for key,value in radio.items() %}
+    {% if status_values[key] != 0 %}
+
+    <li>
+        <label class=".row">
+            <input class=".row"  name="options" type="radio" value="{{ key }}" checked  />
+            <span>{{ value }}</span>
+        </label>
+    </li>
+    
+    
+    {% else %}
+    <li>
+        <label>
+            <input name="options" type="radio" value="{{ key }}"  />
+            <span>{{ value }}</span>
+        </label>
+    </li>
+    <br />
+
+    {% endif %}
+    {%for i in range(0, status_values[key])%}
+    {% if selected_item_index == 1 %}
+    <img src="static\tp.png" width="20" height="20">
+    {% elif selected_item_index == 2%}
+    <img src="static\hand_sanitizer.png" width="20" height="20">
+    {% endif %}
+    {% endfor %}
+
+    {% if status_values[key] != 0 %}
+
+    <br />
+
+    {% endif %}
+
+    {% endfor %}
+        </ul>
+    <p>{{ form.submit(class="btn darken-2 z-depth-0") }}</p>
+</form>
+
+
+    {% endblock %}
 
 
 
-</body>
-</html> 
