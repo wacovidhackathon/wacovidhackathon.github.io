@@ -11,6 +11,8 @@ const setupUI = (user) => {
     //account info
     const html = `
       <div> Logged in as ${user.email}</div>
+      <div> Username: ${user.displayName}</div>
+      <div class ="pink-text">${user.photoURL ? 'Store Owner' : ''}</div>
       <div class ="pink-text">${user.admin ? 'Admin' : ''}</div>
     `;
     accountDetails.innerHTML = html;

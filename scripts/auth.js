@@ -1,3 +1,8 @@
+var updateName = false; //true when username needs to be updated
+var updateStore = false; //true when storeid needs to be updated
+var username;
+var storeid;
+
 //add admin cloud function
 const adminForm = document.querySelector('.admin-actions');
 adminForm.addEventListener('submit', (e) => {
@@ -14,6 +19,17 @@ auth.onAuthStateChanged(user => {
   if (user) {
     user.getIdTokenResult().then(idTokenResult => {
       user.admin = idTokenResult.claims.admin;
+
+      //add username
+      if (updateName) {
+        user.updateProfile({
+          displayName: username,
+        }).then(function() {
+          console.log(user.username);
+        }).catch(function(error) {
+          console.log(error.message);
+        });
+      }
       setupUI(user);
   })
   } else {
