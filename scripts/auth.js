@@ -45,6 +45,7 @@ signupForm.addEventListener('submit', (e) => {
   // get user info
   const email = signupForm['signup-email'].value;
   const password = signupForm['signup-password'].value;
+  username = signupForm['signup-username'].value;
 
   // sign up the user
   auth.createUserWithEmailAndPassword(email, password).then(cred => {
@@ -53,8 +54,12 @@ signupForm.addEventListener('submit', (e) => {
     M.Modal.getInstance(modal).close();
     signupForm.reset();
     
+    updateName = true;
+    updateStore = true;
     signupForm.querySelector('.error').innerHTML = '';
   }).catch(err => {
+    updateName=false;
+    updateStore = false;
     signupForm.querySelector('.error').innerHTML = err.message;
   });
 });
