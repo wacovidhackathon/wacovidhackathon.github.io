@@ -30,6 +30,16 @@ auth.onAuthStateChanged(user => {
           console.log(error.message);
         });
       }
+      //update store ID (for storeowners)
+      if (updateStore) {
+        user.updateProfile({
+          photoURL: storeid,
+        }).then(function() {
+          console.log("URL " + user.photoURL);
+        }).catch(function(error) {
+          console.log(error.message);
+        });
+      }
       setupUI(user);
   })
   } else {
@@ -46,6 +56,7 @@ signupForm.addEventListener('submit', (e) => {
   const email = signupForm['signup-email'].value;
   const password = signupForm['signup-password'].value;
   username = signupForm['signup-username'].value;
+  storeid = signupForm['signup-storeid'].value;
 
   // sign up the user
   auth.createUserWithEmailAndPassword(email, password).then(cred => {
@@ -55,7 +66,9 @@ signupForm.addEventListener('submit', (e) => {
     signupForm.reset();
     
     updateName = true;
-    updateStore = true;
+    if (storeid!==null) {
+      updateStore = true;
+    }
     signupForm.querySelector('.error').innerHTML = '';
   }).catch(err => {
     updateName=false;
